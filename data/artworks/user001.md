@@ -1,0 +1,1 @@
+You can describe the artwork using Markdown in the `data/artworks` folder
