@@ -4,7 +4,7 @@
 
 ## Getting started
 
-Ensure you have Node 12.6.0 installed, if you don't have Node installed I recommend using [nvm](https://github.com/nvm-sh/nvm), once you have nvm install you should be able to run `nmv install` from the root of this project.
+Ensure you have Node 12.6.0 installed, if you don't have Node installed I recommend using [nvm](https://github.com/nvm-sh/nvm), once you have nvm install you should be able to run `nvm install` from the root of this project.
 
 You'll then need to install the node modules (library files) for this project by running `npm install`
 
