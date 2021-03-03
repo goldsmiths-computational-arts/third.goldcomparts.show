@@ -1,4 +1,5 @@
 <script context="module">
+  // imports from artists tsv
   export async function preload({ params }) {
     const artistsRows = await this.fetch("artists.tsv").then(d => d.text());
     const tags = await this.fetch("/artists/tags.json").then(d => d.json());
@@ -47,13 +48,14 @@
 </script>
 
 <style>
+  /*the div all the artworks content sits in*/
   .art-boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 15px;
   }
-
+  /*individual artworks*/
   .art-box {
     display: inline-block;
     margin: 16px;
@@ -75,6 +77,7 @@
     background-size: cover;
     background-color: #a6a8ab;
   }
+  /*text for the artworks cards*/
   .art-box p {
     padding: 0em 0.5em;
     margin-bottom: 1em;
@@ -97,14 +100,14 @@
 <section class="section bg-col-7">
   <div class="container page-max-width artists-container">
     <div class="content">
-
+      <!-- selector element for theme -->
       <select bind:value={theme}>
         <option value={null}>—</option>
         {#each tags.themes as theme}
           <option>{theme}</option>
         {/each}
       </select>
-
+      <!-- selector element for media -->
       <select bind:value={media}>
         <option value={null}>—</option>
         {#each tags.media as media}
@@ -113,7 +116,7 @@
       </select>
 
       <div class="art-boxes">
-
+        <!-- for loop to get artists from tsv and display -->
         {#each artistsFiltered as artist, i (artist.username)}
           <div
             class="art-box"
