@@ -1,0 +1,1 @@
+const t="2021-undergrad.goldcomparts.show",a="https://"+t,e="https://www.eventbrite.co.uk/e/chimera-garden-computational-arts-mamfa-degree-show-digital-exhibition-tickets-119608075975";export{a as B,e as E,t as a};
