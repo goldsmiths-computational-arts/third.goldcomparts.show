@@ -17,7 +17,7 @@
 	export let artistsRows;
 	export let tags;
 
-	// creates a variable artists from the tsv
+	// creates a variable artists from the tsv and sorts by name
 	$: artists = tsvParse(artistsRows).sort((a, b) =>
 		a.name.localeCompare(b.name, "en", { sensitivity: "base" })
 		);
@@ -31,9 +31,14 @@
 		title: "Artwork",
 		fn: (a, b) =>
 		a.title.localeCompare(b.title, "en", { sensitivity: "base" })
+	},
+	{
+		title: "Year",
+		fn: (a, b) =>
+		a.year.localeCompare(b.year, "en", { sensitivity: "base" })
 	}
 	];
-	let sortBy = sortOptions[0];
+	$: sortBy = sortOptions[0];
 	let theme = null;
 	let media = null;
 
@@ -144,7 +149,6 @@
 			</div>
 			{/each}
 		</div>
-
 	</div>
 </div>
 </section>
