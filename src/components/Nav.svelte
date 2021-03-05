@@ -31,12 +31,15 @@
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
+        <!-- 
         <img
           src="/img/brand.svg"
+          opacity="0"
           width="250"
           height="45"
           alt="Chimera Garden"
         />
+        -->
       </a>
 
       <a

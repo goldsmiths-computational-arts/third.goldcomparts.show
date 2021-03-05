@@ -23,7 +23,7 @@
 
 <svelte:head>
   <Meta
-    title="Chimera Garden - Computational Arts MA/MFA Degree Show Goldsmiths"
+    title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
   />
 </svelte:head>
 
@@ -36,11 +36,12 @@
           <div class="column is-6">
             <div>
               <h2 class="showDates">6 May 2021</h2>
-              <h2 class="subtitle">Digital Arts Computating Degree Show</h2>
+              <h2 class="subtitle"> </h2>
+               <h2 class="subtitle"> Digital Arts Computating Degree Show</h2>
               <h2 class="location">Goldsmiths, University of London</h2>
             </div>
             <div class="introBodyStrong">
-              Chimera Garden is a ​celebration of Computational Art now​, a
+              Third ___ is a ​celebration of Computational Art now​, a
               blend of physical and online installation and performance, a
               four-day festival open to all.
             </div>
@@ -91,6 +92,7 @@
   }
   .leftColumn {
     background-image: url(/img/HeroAlt.png);
+    opacity: 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto 100%;

@@ -11,10 +11,97 @@
 
 body {
   font-family: futura-pt, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #000000;
 }
 
+.box
+{
+    position: absolute;
+    top: 17.9%;
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-size: 5.0rem;
+    color: red;
+    margin-left: 200px;
+    background-color: transparent;
+}
+
+.word
+{
+    display: inline-block;
+    color: red;
+}
+.word span
+{
+    position: absolute;
+    top: 12.5%;
+    overflow: hidden;
+    animation: animate 12s linear infinite 0s;
+    opacity: 0;
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    2%
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    15%
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    20%
+    {
+        opacity: 0;
+        transform: translateY(50px);
+    }    
+    80%
+    {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%
+    {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+}
+.word span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+.word span:nth-child(2)
+{
+    animation-delay: 2s;
+}
+.word span:nth-child(3)
+{
+    animation-delay: 4s;
+}
+.word span:nth-child(4)
+{
+    animation-delay: 6s;
+}
+.word span:nth-child(5)
+{
+    animation-delay: 8s;
+}
+.word span:nth-child(6)
+{
+    animation-delay: 10s;
+}
+
+
 .bg-col-1 {
-  background-color: #fd7f4c;
+  background-color: ##000000;
 }
 .bg-col-2 {
   background-color: #387194;

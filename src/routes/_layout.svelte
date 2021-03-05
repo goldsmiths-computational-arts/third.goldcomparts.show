@@ -24,12 +24,12 @@
     z-index: -1;
     width: 100vw;
     height: 100vh;
-    background: rgb(88, 164, 154);
+    background: rgb(0, 0, 0);
     background: radial-gradient(
       circle at bottom right,
-      rgba(88, 164, 154, 1) 0%,
-      rgba(251, 169, 67, 1) 53%,
-      rgba(252, 118, 77, 1) 100%
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 53%,
+      rgba(0, 0, 0, 1) 100%
     );
   }
 </style>
