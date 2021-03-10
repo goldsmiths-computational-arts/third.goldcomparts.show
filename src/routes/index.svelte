@@ -18,26 +18,38 @@
 
   $: artists = tsvParse(artistsRows).sort((a, b) =>
     a.name.localeCompare(b.name, "en", { sensitivity: "base" })
-  );
-</script>
+    );
+  </script>
 
-<svelte:head>
+  <svelte:head>
   <Meta
-    title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
+  title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
   />
 </svelte:head>
-
 <div class="hero-container">
   <section class="hero">
     <div class="hero-body">
       <div class="container is-widescreen">
         <div class="columns">
-          <div class="column is-6 leftColumn" />
+          <div class="column is-6 leftColumn">
+            <!-- animated text -->
+            <div class="box">
+              <div class="word">
+                Third&nbsp;
+                <span>Space</span>
+                <span>Sight</span>
+                <span>Room</span>
+                <span>Life</span>
+                <span>Door</span>
+                <span>Sky</span>
+              </div>
+            </div>  
+          </div>
           <div class="column is-6">
             <div>
               <h2 class="showDates">6 May 2021</h2>
               <h2 class="subtitle"> </h2>
-               <h2 class="subtitle"> Digital Arts Computating Degree Show</h2>
+              <h2 class="subtitle"> Digital Arts Computating Degree Show</h2>
               <h2 class="location">Goldsmiths, University of London</h2>
             </div>
             <div class="introBodyStrong">
@@ -91,11 +103,6 @@
     padding: 2rem 0rem;
   }
   .leftColumn {
-    background-image: url(/img/HeroAlt.png);
-    opacity: 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto 100%;
     min-height: 700px;
     max-height: 1500px;
     height: 80vh;
