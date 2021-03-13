@@ -37,30 +37,8 @@
         <!-- <h2 class="location">Goldsmiths, University of London</h2> -->
       </div>
       <div class="introBody">
-        The exhibition presents a collection of assemblages we’ve cultivated
-        under the extraordinary and global conditions of these troubled months.
-        Fantastic fusions of technology, ideas, humans and other creatures,
-        these works have emerged, flourishing, from a twisted reality of seismic
-        chaos and confusion.
+        Third ____ brings together a c✴nstellati✴n of works which have escaped their tethers to a [material conception]1 or [ideological representation]2 of space to approach  an[other]3 third space that overcomes the bina⚭ries of the first two, where ⇶linkages can be made in an infin∞ number of ways. As such, the title is never static but is alive, ever-changing and evolving to reflect the simultaneously inward juxtapositi⊗n and outward distributi⊙n of art and technology. ____ is not an invitation to be fill▥ed nor is it an open-ended ⸮peculation into the future. It is a transparent vision to blast spectrums of knowable⟷unimaginable, structure⟷agency, everyday life⟷unending history out of chronological ⇄ continuity into a 3√radical dimension beyond an empirical or manifest order of knowledge.
       </div>
-      <p>
-        The Goldsmiths MA/MFA in Computational Art invites you to step into
-        Chimera Garden and walk among the collection of assemblages we’ve
-        cultivated under the extraordinary conditions of these troubled months.
-        Fantastic fusions of technology, ideas, humans and other creatures,
-        these works have emerged, flourishing, from a twisted reality of seismic
-        chaos and confusion. In our current place of epochal chaos and
-        transformation, the foundations on which we’ve built the seemingly
-        monolithic and unquestionable have been disturbed. We are not on solid
-        ground, but we never really were. Exposed fault lines have thrown
-        societal inequalities and injustices into brutal relief, emitting new
-        framings for old questions. At the same time, as individuals we’ve been
-        distanced, physically and socially, into unique states of alienation.
-        It’s a liminal space, where computation now mediates our lives in ways
-        unseen just a few months ago. So as a cohort, we’re uniquely situated to
-        re-imagine, to re-world - making new connections to each other and the
-        world around us, building new possibilities of being.
-      </p>
       <!--       <p>
         Chimera Garden is a blend of physical and online installation and
         performance, a four-day festival open to all via free ticket

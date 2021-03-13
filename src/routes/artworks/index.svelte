@@ -30,18 +30,25 @@
       title: "Artwork",
       fn: (a, b) =>
         a.title.localeCompare(b.title, "en", { sensitivity: "base" })
+    },
+    {
+      title: "Years",
+      fn: (a, b) =>
+        a.years.localeCompare(b.years, "en", { sensitivity: "base" })
     }
   ];
-  let sortBy = sortOptions[1];
+  let sortBy = sortOptions[2];
   let theme = null;
   let media = null;
+  let year = null;
 
   $: artistsFiltered = artists
     .filter(d => d.title)
     .filter(d => {
       return (
         (!media || (d.media && d.media.includes(media))) &&
-        (!theme || (d.themes && d.themes.includes(theme)))
+        (!theme || (d.themes && d.themes.includes(theme))) &&
+        (!year || (d.years && d.years.includes(year)))
       );
     })
     .sort(sortBy.fn);
@@ -100,6 +107,7 @@
 <section class="section bg-col-7">
   <div class="container page-max-width artists-container">
     <div class="content">
+
       <!-- selector element for theme -->
       <select bind:value={theme}>
         <option value={null}>—</option>
@@ -107,6 +115,7 @@
           <option>{theme}</option>
         {/each}
       </select>
+
       <!-- selector element for media -->
       <select bind:value={media}>
         <option value={null}>—</option>
@@ -114,6 +123,14 @@
           <option>{media}</option>
         {/each}
       </select>
+
+      <!-- selector element for year -->
+      <select bind:value={year}>
+        <option value={null}>—</option>
+        {#each tags.years as year}
+          <option>{year}</option>
+        {/each}
+      </select>      
 
       <div class="art-boxes">
         <!-- for loop to get artists from tsv and display -->
@@ -138,7 +155,7 @@
           <div>
             Sorry your filter return no results
             <br />
-            <div class="button" on:click={() => (theme = media = null)}>
+            <div class="button" on:click={() => (theme = media = year = null)}>
               Click here to remove filters
             </div>
           </div>

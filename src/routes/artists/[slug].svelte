@@ -394,7 +394,7 @@
           {/if}
 
           <!-- or display as tags? -->
-          {#if (artist.themes && artist.themes.length) || (artist.media && artist.media.length)}
+          {#if (artist.themes && artist.themes.length) || (artist.media && artist.media.length) || (artist.years && artist.years.length)}
             <div class="artist-tags">
               <h6>Tags</h6>
               {#if artist.themes && artist.themes.length}
@@ -407,6 +407,13 @@
               {#if artist.media && artist.media.length}
                 {#each artist.media as media}
                   <span class="tag is-dark">{media}</span>
+                  &nbsp;
+                {/each}
+              {/if}
+
+              {#if artist.years && artist.years.length}
+                {#each artist.years as year}
+                  <span class="tag is-dark">{year}</span>
                   &nbsp;
                 {/each}
               {/if}

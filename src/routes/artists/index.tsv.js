@@ -6,7 +6,7 @@ const out = artists.map((d) => {
     username: d.username,
     name: d.name,
     otherName: d.otherName,
-    year: d.year,
+    years: d.years,
     title: d.title,
     themes: d.themes,
     media: d.media,

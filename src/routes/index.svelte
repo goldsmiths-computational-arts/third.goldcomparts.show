@@ -53,9 +53,7 @@
               <h2 class="location">Goldsmiths, University of London</h2>
             </div>
             <div class="introBodyStrong">
-              Third ___ is a ​celebration of Computational Art now​, a
-              blend of physical and online installation and performance, a
-              four-day festival open to all.
+              Third ____ brings together a c✴nstellati✴n of works which have escaped their tethers to a [material conception]1 or [ideological representation]2 of space to approach  an[other]3 third space that overcomes the bina⚭ries of the first two, where ⇶linkages can be made in an infin∞ number of ways. As such, the title is never static but is alive, ever-changing and evolving to reflect the simultaneously inward juxtapositi⊗n and outward distributi⊙n of art and technology. ____ is not an invitation to be fill▥ed nor is it an open-ended ⸮peculation into the future. It is a transparent vision to blast spectrums of knowable⟷unimaginable, structure⟷agency, everyday life⟷unending history out of chronological ⇄ continuity into a 3√radical dimension beyond an empirical or manifest order of knowledge.
             </div>
             <div>
               <a href="/schedule" class="rounded-link col-7 bd-col-7">

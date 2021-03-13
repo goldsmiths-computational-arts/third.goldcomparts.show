@@ -10,12 +10,19 @@ const allMedia = artists
   .flat()
   .filter((d) => d);
 
+const allYears = artists
+  .map((d) => d.years)
+  .flat()
+  .filter((d) => d);
+
 const themes = Array.from(new Set(allThemes).values()).sort();
 const media = Array.from(new Set(allMedia).values()).sort();
+const years = Array.from(new Set(allYears).values()).sort();
 
 const out = {
   themes,
   media,
+  years,
 };
 
 export function get(req, res, next) {
