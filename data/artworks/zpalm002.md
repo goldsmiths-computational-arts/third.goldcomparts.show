@@ -1,0 +1,1 @@
+Web-based generative visual piece. Centered upon a theory of 'mutual use' explored by Val Plumwood. 'Eating Pigeons' recruits a band of city pigeons in order to create artworks based on datasets collected and curated through interaction and exchange with local ecosystems.

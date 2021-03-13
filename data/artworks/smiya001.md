@@ -1,0 +1,1 @@
+This work integrates digital media and culinary practice, creating the new experience of cooking in an augmented environment. The work will be produced by imagining the possibility of the future culinary process where the traditional culinary process is enhanced and extended with new interactive capabilities.

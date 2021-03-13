@@ -1,0 +1,1 @@
+Physical contemporary art installation consisting of generative drawings in the abstract form around human-environmental symbiosis theme.
