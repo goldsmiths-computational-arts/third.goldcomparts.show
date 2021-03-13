@@ -37,7 +37,7 @@
         a.years.localeCompare(b.years, "en", { sensitivity: "base" })
     }
   ];
-  let sortBy = sortOptions[2];
+  let sortBy = sortOptions[0];
   let theme = null;
   let media = null;
   let year = null;
@@ -110,7 +110,7 @@
 
       <!-- selector element for theme -->
       <select bind:value={theme}>
-        <option value={null}>—</option>
+        <option value={null} selected hidden>Theme</option>
         {#each tags.themes as theme}
           <option>{theme}</option>
         {/each}
@@ -118,7 +118,7 @@
 
       <!-- selector element for media -->
       <select bind:value={media}>
-        <option value={null}>—</option>
+        <option value={null} selected hidden>Media</option>
         {#each tags.media as media}
           <option>{media}</option>
         {/each}
@@ -126,7 +126,7 @@
 
       <!-- selector element for year -->
       <select bind:value={year}>
-        <option value={null}>—</option>
+        <option value={null} selected hidden>Year</option>
         {#each tags.years as year}
           <option>{year}</option>
         {/each}
