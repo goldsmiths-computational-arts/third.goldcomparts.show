@@ -12,7 +12,7 @@
       // icon = `<span class="icon"><i class="fas fa-external-link-alt"></i></span>`;
       icon = `<span class="icon"><i class="fas fa-external-link-square-alt"></i></span>`;
       url = value;
-      text = value;
+      text = value.replace(/https?:\/\//, "");
       break;
     case "instagram":
       icon = `<span class="icon"><i class="fab fa-instagram"></i></span>`;
@@ -51,20 +51,21 @@
   }
 </script>
 
-<style>
-  a{
-    color:#387194;
-  }
-</style>
-
 {#if value}
   <div class="social-profile">
     {@html icon}
     <a
       href={url}
       target="_blank"
-      on:click={() => trackEvent('social', 'click', `${kind}.${value}`)}>
+      on:click={() => trackEvent("social", "click", `${kind}.${value}`)}
+    >
       {text}
     </a>
   </div>
 {/if}
+
+<style>
+  a {
+    color: #387194;
+  }
+</style>
