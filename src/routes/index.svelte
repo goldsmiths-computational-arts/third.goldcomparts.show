@@ -80,6 +80,9 @@
     font-size: 2.5rem;
     color: #fcfcfc;
   }
+  .word {
+    white-space: nowrap;
+  }
   .showDates {
     font-family: futura-pt, sans-serif;
     font-weight: 400;
