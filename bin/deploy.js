@@ -5,7 +5,7 @@ ghpages.publish(
   "__sapper__/export", // the folder we wish to deploy
   {
     branch: "gh-pages",
-    repo: "https://github.com/aubergene/2021-undergrad.goldcomparts.show",
+    repo: "https://github.com/aubergene/third___.goldcomparts.show",
     user: {
       name: "Julian Burgess",
       email: "aubergene@gmail.com",

@@ -1,6 +1,6 @@
 {
-  "name": "2021-undergrad.goldcomparts.show",
-  "description": "2021-undergrad.goldcomparts.show",
+  "name": "third___.goldcomparts.show",
+  "description": "third___.goldcomparts.show",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
