@@ -112,8 +112,13 @@
 </script>
 
 <style>
+
+h2 {
+color: white;
+}
+
   .event {
-    background-color: white;
+    background-color: black;
     margin-bottom: 1rem;
     border-left: 6px solid transparent;
     padding: 24px;
@@ -121,16 +126,23 @@
 
   .event-description {
     margin: 0.5rem 0;
+    color: white;
   }
 
   .artist-name {
     font-weight: 600;
     margin: 0em 0.5em 0em 0em;
   }
-  .event-time,
+  .event-time {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffa1;
+  }
+
   .event-title {
     font-size: 18px;
     font-weight: 600;
+    color: white;
   }
 
   .text-align-right {
@@ -234,19 +246,19 @@
       <h2>Schedule</h2>
       <div>
         {#each eventsByDay2 as [date, events]}
-          <a
+          <!-- no need for location data <a
             class="rounded-link bd-col-1 col-1"
             href="#{formatDay(events[0].startsAt).toLowerCase()}"
             on:click|preventDefault={scrollTo}>
             {formatDay(events[0].startsAt)}
-          </a>
+          </a> -->
         {/each}
         <a class="rounded-link bd-col-2 col-2" href={EVENT_URL} target="_blank">
           Free online tickets
         </a>
       </div>
 
-      <div class="filter-items">
+      <!-- no need for this <div class="filter-items">
         <span
           class="filter-item"
           class:is-selected={filter === null}
@@ -265,7 +277,7 @@
           on:click={() => (filter = ONSITE)}>
           ONSITE
         </span>
-      </div>
+      </div> -->
 
       {#each eventsByDay2 as [date, events]}
         <h2 id={formatDay(events[0].startsAt).toLowerCase()}>
