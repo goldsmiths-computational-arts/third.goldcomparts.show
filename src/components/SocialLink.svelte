@@ -66,6 +66,7 @@
 
 <style>
   a {
-    color: #387194;
+    /*color: #387194;*/
+    color: #ffffa1;
   }
 </style>

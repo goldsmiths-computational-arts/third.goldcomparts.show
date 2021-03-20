@@ -56,6 +56,11 @@
 
   h3 {
     margin-top: 0.6666em;
+    color: white;
+  }
+
+  h2 {
+  color: white;
   }
 
   a:not(.rounded-link) {

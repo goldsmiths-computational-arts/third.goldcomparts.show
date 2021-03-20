@@ -205,10 +205,10 @@ body {
 }
 
 .bd-col-1 {
-  border-color: #fd7f4c;
+  border-color: white;
 }
 .bd-col-2 {
-  border-color: #387194;
+  border-color: white;
 }
 .bd-col-3 {
   border-color: #7bc1b7;
@@ -227,10 +227,10 @@ body {
 }
 
 .col-1 {
-  color: #fd7f4c;
+  color: white;
 }
 .col-2 {
-  color: #387194;
+  color: white;
 }
 .col-3 {
   color: #7bc1b7;
@@ -249,7 +249,8 @@ body {
 }
 
 p a {
-  color: #387194;
+  /*color: #387194;*/
+color: #ffffa1;
 }
 
 .navbar-link.is-active,

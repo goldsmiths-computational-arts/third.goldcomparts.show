@@ -294,7 +294,7 @@ color: white;
             physical={event.physical}>
 
             <!-- TODO for next release convert to links to live page and getting there-->
-            <div class="columns">
+             <div class="columns">
               <div class="column is-1 location-data">
                 {#if event.livestream}
                   <!-- <span class="rounded-link col-6 bd-col-6">ONLINE</span> -->
@@ -306,7 +306,7 @@ color: white;
                   <a href="/getting-there" class="rounded-link bd-col-1 col-1">ONSITE</a>
                   <!-- <a href="/getting-there" class="col-3 bd-col-3">ONSITE</a> -->
                 {/if}
-              </div>
+              </div> 
 
               <div class="column is-9">
                 <div class="event-time col-3">

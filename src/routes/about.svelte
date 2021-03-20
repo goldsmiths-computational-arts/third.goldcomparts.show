@@ -1,6 +1,6 @@
 <style>
   h2 {
-    color: #fcfcfc;
+    color: white;
   }
   .subtitle {
     font-family: futura-pt, sans-serif;
@@ -18,7 +18,7 @@
   .content {
     font-family: futura-pt, sans-serif;
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #fcfcfc;
     padding-top: 4rem;
   }

@@ -43,7 +43,7 @@
                 <span>Door</span>
                 <span>Sky</span>
               </div>
-            </div>  
+            </div>
           </div>
           <div class="column is-6">
             <div>
@@ -88,7 +88,7 @@
 
 <style>
   h2 {
-    color: #fcfcfc;
+    color: white;
   }
   .subtitle {
     font-family: futura-pt, sans-serif;
