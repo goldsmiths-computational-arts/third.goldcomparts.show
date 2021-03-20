@@ -89,8 +89,13 @@
   }
 
   a.is-active {
-    border-bottom-color: black;
-    color: black;
+    border-bottom-color: silver;
+    color: silver;
+  }
+
+  a:hover{
+    border-bottom-color: gainsboro;
+    color: gainsboro;
   }
 
   @media only screen and (max-width: 1023px) {
