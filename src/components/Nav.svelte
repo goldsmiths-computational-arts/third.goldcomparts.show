@@ -31,7 +31,7 @@
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
-        <!-- 
+        <!--
         <img
           src="/img/brand.svg"
           opacity="0"
@@ -89,13 +89,13 @@
   }
 
   a.is-active {
-    border-bottom-color: silver;
-    color: silver;
+    border-bottom-color: transparent;
+    color: #ffffa1;
   }
 
   a.hover{
-    border-bottom-color: gainsboro;
-    color: gainsboro;
+    border-bottom-color: transparent;
+    color: #ffffa1;
   }
 
   @media only screen and (max-width: 1023px) {
