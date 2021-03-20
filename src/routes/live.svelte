@@ -3,6 +3,11 @@
 </script>
 
 <style>
+
+h2 {
+color: white;
+}
+
   iframe {
     display: block;
   }
