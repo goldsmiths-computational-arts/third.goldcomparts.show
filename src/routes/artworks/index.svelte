@@ -67,7 +67,7 @@
     display: inline-block;
     margin: 16px;
     text-align: left;
-    background-color: white;
+    background-color: transparent;
     width: 280px;
     /* height: 250px; */
   }
@@ -82,18 +82,19 @@
     display: block;
     background-position: center;
     background-size: cover;
-    background-color: #a6a8ab;
+    background-color: #404040;
   }
   /*text for the artworks cards*/
   .art-box p {
     padding: 0em 0.5em;
     margin-bottom: 1em;
-    color: #363636 !important;
+    color: #D3D3D3;
     line-height: 1.3em;
   }
   .art-box h6 {
     padding: 0.5em 0.5em 0em 0.5em;
     margin-bottom: 0px;
+    color: white;
   }
 
   @media screen and (max-width: 768px) {
@@ -130,7 +131,7 @@
         {#each tags.years as year}
           <option>{year}</option>
         {/each}
-      </select>      
+      </select>
 
       <div class="art-boxes">
         <!-- for loop to get artists from tsv and display -->
