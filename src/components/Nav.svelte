@@ -83,7 +83,7 @@
   a {
     font-family: futura-pt, sans-serif;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #fcfcfc;
     border-bottom: 4px solid transparent;
   }

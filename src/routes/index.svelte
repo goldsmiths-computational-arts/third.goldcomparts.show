@@ -93,7 +93,7 @@
   .subtitle {
     font-family: futura-pt, sans-serif;
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color: #fcfcfc;
   }
   .word {
@@ -109,13 +109,13 @@
   .location {
     font-family: futura-pt, sans-serif;
     font-weight: 500;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: #fcfcfc;
   }
   .introBodyStrong {
     font-family: futura-pt, sans-serif;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     color: #fcfcfc;
     padding: 2rem 0rem;
   }
