@@ -88,13 +88,13 @@
   .art-box p {
     padding: 0em 0.5em;
     margin-bottom: 1em;
-    color: #D3D3D3;
+    color: #C0C0C0 !important;
     line-height: 1.3em;
   }
   .art-box h6 {
     padding: 0.5em 0.5em 0em 0.5em;
     margin-bottom: 0px;
-    color: white;
+    color: white !important;
   }
 
   @media screen and (max-width: 768px) {

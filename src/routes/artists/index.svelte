@@ -67,7 +67,7 @@
 		display: inline-block;
 		margin: 16px;
 		text-align: left;
-		background-color: white;
+		background-color: transparent;
 		width: 190px;
 		/* height: 250px; */
 	}
@@ -88,12 +88,13 @@
 	.bio-box p {
 		padding: 0em 0.5em;
 		margin-bottom: 1em;
-		color: #363636 !important;
+		color: #C0C0C0 !important;
 		line-height: 1.3em;
 	}
 	.bio-box h6 {
 		padding: 0.5em 0.5em 0em 0.5em;
 		margin-bottom: 0px;
+		color: white !important;
 	}
 
 	@media screen and (max-width: 768px) {
@@ -123,7 +124,7 @@
 				<option>{media}</option>
 				{/each}
 			</select>
-			
+
 			<!-- Select by year -->
 			<select bind:value={year}>
 				<option value={null} selected hidden>Year</option>
