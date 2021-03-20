@@ -93,7 +93,7 @@
     color: silver;
   }
 
-  a:hover{
+  a.hover{
     border-bottom-color: gainsboro;
     color: gainsboro;
   }
