@@ -44,6 +44,9 @@
                 <span>Sky</span>
               </div>
             </div>
+            <div style="margin-left: 100px; margin-top: 200px;">
+<!-- <iframe src="https://giphy.com/embed/26BRKEDGBicmow252" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
+</div>
           </div>
           <div class="column is-6">
             <div>
