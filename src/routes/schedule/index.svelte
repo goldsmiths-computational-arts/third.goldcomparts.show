@@ -60,6 +60,7 @@
     // console.log(events);
   }
 
+
   $: filteredEvents = events.filter(d => {
     if (!filter) {
       return true;
@@ -303,7 +304,7 @@ color: white;
                 {/if}
                 {#if event.physical}
                   <!-- <span class="rounded-link col-6 bd-col-6">ONSITE</span> -->
-                  <a href="/getting-there" class="rounded-link bd-col-1 col-1">ONSITE</a>
+                  <a href="/getting-there" class="rounded-link bd-col-1 col-1">ONLINE</a>
                   <!-- <a href="/getting-there" class="col-3 bd-col-3">ONSITE</a> -->
                 {/if}
               </div> 
