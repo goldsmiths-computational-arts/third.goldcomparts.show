@@ -106,6 +106,19 @@
 
   @media screen and (max-width: 768px) {
   }
+
+.select select {
+color: white;
+border-radius: 0px;
+background: transparent;
+display: inline-block;
+border-color: white;
+
+
+}
+
+
+
 </style>
 
 <svelte:head>
@@ -116,6 +129,7 @@
   <div class="container page-max-width artists-container">
     <div class="content">
 
+<div class="select">
       <!-- selector element for theme -->
       <select bind:value={theme}>
         <option value={null} selected>Theme</option>
@@ -139,6 +153,8 @@
           <option>{year}</option>
         {/each}
       </select>
+
+</div>
 
       <div class="art-boxes">
         <!-- for loop to get artists from tsv and display -->
