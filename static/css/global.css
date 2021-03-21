@@ -199,6 +199,7 @@ body {
 }
 .bg-col-7 {
   background-color: black;
+  border-top: 4px solid white;
 }
 .bg-col-8 {
   background-color: white;

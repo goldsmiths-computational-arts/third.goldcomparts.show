@@ -67,7 +67,9 @@
 		display: inline-block;
 		margin: 16px;
 		text-align: left;
-		background-color: transparent;
+		border-color: white;
+		border-style: solid;
+		border-width: 2px;
 		width: 190px;
 		/* height: 250px; */
 	}
