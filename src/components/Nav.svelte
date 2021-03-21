@@ -77,7 +77,7 @@
 
 <style>
   nav {
-    background-color: transparent;
+    background-color: black;
   }
 
   a {
@@ -89,13 +89,13 @@
   }
 
   a.is-active {
-    border-bottom-color: transparent;
+    border-bottom-color: #ffffa1;
     color: #ffffa1;
   }
 
-  a.hover{
-    border-bottom-color: transparent;
-    color: #ffffa1;
+  a:hover{
+    border-bottom-color: #fffff0;
+    color: #fffff0;
   }
 
   @media only screen and (max-width: 1023px) {

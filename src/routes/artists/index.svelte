@@ -74,6 +74,10 @@
 		/* height: 250px; */
 	}
 
+	.bio-box:hover{
+		box-shadow: 5px 5px #ffffa1;
+	}
+
 	.artists-container {
 		min-height: 80vh;
 	}
