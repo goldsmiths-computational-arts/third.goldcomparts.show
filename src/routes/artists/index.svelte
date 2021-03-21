@@ -117,7 +117,7 @@
 
 			<!-- Select by theme -->
 			<select bind:value={theme}>
-				<option value={null} selected hidden>Theme</option>
+				<option value={null} selected>Theme</option>
 				{#each tags.themes as theme}
 				<option>{theme}</option>
 				{/each}
@@ -125,7 +125,7 @@
 
 			<!-- Select by media -->
 			<select bind:value={media}>
-				<option value={null} selected hidden>Media</option>
+				<option value={null} selected>Media</option>
 				{#each tags.media as media}
 				<option>{media}</option>
 				{/each}
@@ -133,8 +133,8 @@
 
 			<!-- Select by year -->
 			<select bind:value={year}>
-				<option value={null} selected hidden>Year</option>
-				{#each tags.years as year}
+				<option value={null} selected>Year</option>
+				{#each tags.years.reverse() as year}
 				<option>{year}</option>
 				{/each}
 			</select>
