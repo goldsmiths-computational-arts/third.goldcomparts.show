@@ -103,15 +103,28 @@
 		color: white !important;
 	}
 
-	@media screen and (max-width: 768px) {
-	}
-
 	.select select {
 	color: white;
 	border-radius: 0px;
 	background: transparent;
 	display: inline-block;
 	border-color: white;
+	}
+
+	@media screen and (max-width: 768px) {
+		.bio-boxes {
+		margin-top: 15vh;
+	}
+		.bio-box {
+		margin: 16px;
+		width: 240px;
+		height: 250px;
+		/* height: 250px; */
+	}
+	.select select {
+	margin-bottom: 10px;
+	width: 80%;
+	}
 	}
 
 </style>

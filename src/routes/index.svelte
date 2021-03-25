@@ -145,8 +145,8 @@
     .leftColumn {
       /*background-position: bottom right;*/
       /*background-size: 100% auto;*/
-      height: 100vh;
-      min-height: 500px;
+      height: 40vh;
+      min-height: 200px;
       height: 50vh;
     }
     .showDates {

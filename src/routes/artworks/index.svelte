@@ -105,6 +105,18 @@
   }
 
   @media screen and (max-width: 768px) {
+    .art-boxes {
+    margin-top: 15vh;
+  }
+    .art-box {
+    margin: 16px;
+    width: 280px;
+    /* height: 250px; */
+  }
+  .select select {
+  margin-bottom: 10px;
+  width: 80%;
+  }
   }
 
 .select select {
