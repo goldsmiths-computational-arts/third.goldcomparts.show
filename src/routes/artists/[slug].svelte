@@ -68,7 +68,7 @@
   }
 
   .artists-section {
-    min-height: 100vh;
+    min-height: 100%;
   }
 
   .content ul {
@@ -87,7 +87,7 @@
   }
 
   .artwork-instructions {
-    margin: 60px 0px 20px 0px;
+    margin: 20px 0px 0px 0px;
   }
 
   .artist-tags {
@@ -173,13 +173,21 @@
 <!-- hide all the artwork stuff if we don't have title -->
 {#if artist.title}
   <div class="container page-max-width top-framed-element">
+    {#if artist.videoDocUrl}
+          <section class="section responsive-video" style="padding: 0;">
+            <div class="container">
+              <VideoEmbed url={artist.videoDocUrl} />
+            </div>
+          </section>
+        {:else}
     <Slideshow images={artworkImages} />
+    {/if}
   </div>
 
-  <section class="section bg-col-7 artist-page">
+  <section class="section bg-col-7 artist-page" style="margin-bottom: 10px; padding-bottom: 10px">
     <div class="container page-max-width">
       <div class="content">
-        <section class="section bg-col-7">
+        <section class="section bg-col-7" style="margin-bottom: 0px; padding-bottom: 0px">
           <div class="container align-center">
             <h2 class="artwork-title">{artist.title}</h2>
             <h3>
@@ -236,13 +244,13 @@
           </div>
         </section>
 
-        {#if artist.videoDocUrl}
+        <!-- {#if artist.videoDocUrl}
           <section class="section responsive-video">
             <div class="container">
               <VideoEmbed url={artist.videoDocUrl} />
             </div>
           </section>
-        {/if}
+        {/if} -->
 
         <!-- TODO:  Start if > Once logic for remote students is in  we can only show this blue block if events online and if in church -->
 
@@ -343,8 +351,6 @@
                         class="rounded-link bg-col-7 bd-col-7 col-2">
                         Getting There
                       </a>
-                      <!-- <a href="../map" class="rounded-link bg-col-7 bd-col-7 col-2">Map</a> -->
-                      <!--  TODO when we have a map layyout -->
                     </div>
                   </div>
                 {/if}
@@ -376,14 +382,54 @@
               {#if artist.otherName}({artist.otherName}){/if}
             </h2>
 
-            <div class="artist-bio">
-              {#if artist.bioHTML}
-                {@html artist.bioHTML}
-              {:else}
-                <p>No biography provided</p>
-              {/if}
+            {#if artist.website || artist.instagram || artist.twitter || artist.facebook || artist.vimeo || artist.youtube || artist.twitch}
+            <div class="social-links">
+              <h3>Social links</h3>
+              <SocialLink kind="website" value={artist.website} />
+              <SocialLink kind="instagram" value={artist.instagram} />
+              <SocialLink kind="twitter" value={artist.twitter} />
+              <SocialLink kind="facebook" value={artist.facebook} />
+              <SocialLink kind="vimeo" value={artist.vimeo} />
+              <SocialLink kind="youtube" value={artist.youtube} />
+              <SocialLink kind="twitch" value={artist.twitch} />
             </div>
+          {/if}
+
+          <!-- or display as tags? -->
+          {#if (artist.themes && artist.themes.length) || (artist.media && artist.media.length) || (artist.years && artist.years.length)}
+            <div class="artist-tags">
+              <h6>Tags</h6>
+              {#if artist.themes && artist.themes.length}
+                {#each artist.themes as theme}
+                  <span class="tag is-dark">{theme}</span>
+                  &nbsp;
+                {/each}
+              {/if}
+
+              {#if artist.media && artist.media.length}
+                {#each artist.media as media}
+                  <span class="tag is-dark">{media}</span>
+                  &nbsp;
+                {/each}
+              {/if}
+
+              {#if artist.years && artist.years.length}
+                {#each artist.years as year}
+                  <span class="tag is-dark">{year}</span>
+                  &nbsp;
+                {/each}
+              {/if}
+
+            </div>
+          {/if}
           </div>
+
+        </div>
+        <div class="column is-hidden-mobile is-two-thirds">
+          <h2 class="artist-name">
+            {artist.name}
+            {#if artist.otherName}({artist.otherName}){/if}
+          </h2>
 
           {#if artist.website || artist.instagram || artist.twitter || artist.facebook || artist.vimeo || artist.youtube || artist.twitch}
             <div class="social-links">
@@ -425,24 +471,8 @@
 
             </div>
           {/if}
-
-        </div>
-        <div class="column is-hidden-mobile is-two-thirds">
-          <h2 class="artist-name">
-            {artist.name}
-            {#if artist.otherName}({artist.otherName}){/if}
-          </h2>
-
-          <div class="artist-bio">
-            {#if artist.bioHTML}
-              {@html artist.bioHTML}
-            {:else}
-              <p>No biography provided</p>
-            {/if}
-          </div>
         </div>
       </div>
     </div>
-    <div style="padding-top: 100px;" />
   </div>
 </section>
