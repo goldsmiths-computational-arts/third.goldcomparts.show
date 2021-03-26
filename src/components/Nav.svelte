@@ -91,16 +91,18 @@
   a.is-active {
     border-bottom-color: #ffffa1;
     color: #ffffa1;
+    background-color: transparent;
   }
 
   a:hover{
     border-bottom-color: #fffff0;
     color: #fffff0;
+    background-color: transparent;
   }
 
   @media only screen and (max-width: 1023px) {
     .navbar-menu {
-      background-color: #387194;
+      background-color: transparent;
     }
   }
 

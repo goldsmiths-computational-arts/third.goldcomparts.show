@@ -71,7 +71,6 @@
 		border-style: solid;
 		border-width: 2px;
 		width: 190px;
-		/* height: 250px; */
 	}
 
 	.bio-box:hover{
@@ -103,28 +102,34 @@
 		color: white !important;
 	}
 
-	.select select {
-	color: white;
-	border-radius: 0px;
-	background: transparent;
-	display: inline-block;
-	border-color: white;
+	.selectors{
+		text-align: center;
+	}
+
+	.selectors select {
+		color: white;
+		border-radius: 0px;
+		background: transparent;
+		display: inline-block;
+		border-color: white;
 	}
 
 	@media screen and (max-width: 768px) {
 		.bio-boxes {
-		margin-top: 15vh;
-	}
+			margin-top: 20px;
+		}
 		.bio-box {
-		margin: 16px;
-		width: 240px;
-		height: 250px;
-		/* height: 250px; */
-	}
-	.select select {
-	margin-bottom: 10px;
-	width: 80%;
-	}
+			margin: 16px;
+			width: 80%;
+		}
+		.selectors select {
+			margin-bottom: 20px;
+			width: 80%;
+			height: 40px;
+			padding: 10px;
+			-webkit-appearance: none;
+    		appearance: none;
+		}
 	}
 
 </style>
@@ -137,31 +142,31 @@
 	<div class="container page-max-width artists-container">
 		<div class="content">
 
-<div class="select">
-			<!-- Select by theme -->
-			<select bind:value={theme}>
-				<option value={null} selected>Theme</option>
-				{#each tags.themes as theme}
-				<option>{theme}</option>
-				{/each}
-			</select>
+			<div class="selectors">
+				<!-- Select by theme -->
+				<select bind:value={theme}>
+					<option value={null} selected>Theme</option>
+					{#each tags.themes as theme}
+					<option>{theme}</option>
+					{/each}
+				</select>
 
-			<!-- Select by media -->
-			<select bind:value={media}>
-				<option value={null} selected>Media</option>
-				{#each tags.media as media}
-				<option>{media}</option>
-				{/each}
-			</select>
+				<!-- Select by media -->
+				<select bind:value={media}>
+					<option value={null} selected>Media</option>
+					{#each tags.media as media}
+					<option>{media}</option>
+					{/each}
+				</select>
 
-			<!-- Select by year -->
-			<select bind:value={year}>
-				<option value={null} selected>Year</option>
-				{#each tags.years.reverse() as year}
-				<option>{year}</option>
-				{/each}
-			</select>
-</div>
+				<!-- Select by year -->
+				<select bind:value={year}>
+					<option value={null} selected>Year</option>
+					{#each tags.years.reverse() as year}
+					<option>{year}</option>
+					{/each}
+				</select>
+			</div>
 
 			<div class="bio-boxes">
 				<!-- for loop to go through artists and display -->
