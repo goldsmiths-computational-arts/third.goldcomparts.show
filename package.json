@@ -1,6 +1,6 @@
 {
-  "name": "third___.goldcomparts.show",
-  "description": "third___.goldcomparts.show",
+  "name": "third.goldcomparts.show",
+  "description": "third.goldcomparts.show",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
