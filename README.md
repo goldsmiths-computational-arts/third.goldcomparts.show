@@ -1,4 +1,4 @@
-# third\_\_\_.goldcomparts.show
+# third.goldcomparts.show
 
 - [How to update biography](https://github.com/aubergene/2020.goldcomparts.show/blob/master/HOW_TO_UPDATE.md)
 
@@ -26,4 +26,4 @@ This will export the site to `public` and then commit it to the `gh-pages` and p
 npm run deploy
 ```
 
-The url is https://third___.goldcomparts.show
+The url is https://third.goldcomparts.show
