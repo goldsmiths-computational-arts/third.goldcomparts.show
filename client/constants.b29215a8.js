@@ -1,1 +1,0 @@
-const t="third___.goldcomparts.show",a="https://third___.goldcomparts.show",o="https://www.eventbrite.co.uk/e/chimera-garden-computational-arts-mamfa-degree-show-digital-exhibition-tickets-119608075975";export{a as B,o as E,t as a};
