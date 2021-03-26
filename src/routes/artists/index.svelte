@@ -103,7 +103,7 @@
 	}
 
 	.selectors{
-		text-align: center;
+		text-align: left;
 	}
 
 	.selectors select {
@@ -112,6 +112,11 @@
 		background: transparent;
 		display: inline-block;
 		border-color: white;
+		-webkit-appearance: none;
+		padding: 10px;
+		margin-right: 10px;
+		width: 25%;
+		height: 40px;
 	}
 
 	@media screen and (max-width: 768px) {
@@ -122,12 +127,14 @@
 			margin: 16px;
 			width: 80%;
 		}
+		.selectors{
+		text-align: center;
+		}
 		.selectors select {
 			margin-bottom: 20px;
 			width: 80%;
 			height: 40px;
 			padding: 10px;
-			-webkit-appearance: none;
     		appearance: none;
 		}
 	}
