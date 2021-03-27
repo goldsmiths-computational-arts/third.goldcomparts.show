@@ -48,8 +48,8 @@
               <img
               src="/img/shader1.gif"
               opacity="0"
-              width="480"
-              height="270"
+              width="410"
+              height="410"
               alt="animated graphic"/>
             </div>
           </div>
@@ -143,7 +143,8 @@
   .animatedImage{
     text-align: center;
     position: absolute;
-    bottom: 30%;
+    margin-left: 235px;
+    bottom: 33%;
   }
 
   .box{
