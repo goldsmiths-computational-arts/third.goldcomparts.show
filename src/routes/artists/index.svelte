@@ -186,7 +186,7 @@
 				<a href="artists/{slugify(artist.name)}">
 					<div
 					class="bio-photo"
-					style="background-image:url(img/bios/{artist.username}.jpeg)" />
+					style="background-image:url(img/bios/{artist.username}.jpeg),url(img/bios/ipate006.jpeg)"/>
 					<h6>
 						{artist.name}
 						{artist.otherName ? `  (${artist.otherName})` : ''}

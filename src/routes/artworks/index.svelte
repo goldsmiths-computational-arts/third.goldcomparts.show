@@ -191,7 +191,7 @@
         <a href="artists/{slugify(artist.name)}">
           <div
           class="artwork-photo"
-          style="background-image:url(img/artworks/{artist.username}-thumb.jpeg)" />
+          style="background-image:url(img/artworks/{artist.username}-thumb.jpeg),url(img/bios/ipate006.jpeg)" />
           <h6>{artist.title}</h6>
           <p>
             {artist.name}
