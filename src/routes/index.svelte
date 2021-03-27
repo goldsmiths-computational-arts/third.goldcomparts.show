@@ -46,7 +46,7 @@
             </div>
             <div class="animatedImage">
               <img
-              src="/img/abex.gif"
+              src="/img/shader1.gif"
               opacity="0"
               width="480"
               height="270"
