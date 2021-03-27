@@ -152,7 +152,7 @@
 
   @media only screen and (max-width: 768px) {
     .leftColumn {
-      height: 80vh;
+      height: 40vh;
       min-height: 200px;
       padding-top: 0;
     }
@@ -162,10 +162,11 @@
     .animatedImage{
       text-align: center;
       position: absolute;
-      bottom: 0%;
+      bottom: 10%;
     }
     .box{
       text-align: center;
+      margin-left: -20px;
     }
     .hero-body{
       padding-top: 20px;
