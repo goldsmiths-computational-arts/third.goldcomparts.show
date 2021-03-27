@@ -1,8 +1,14 @@
 <script>
   import { stores } from "@sapper/app";
-
   const { page } = stores();
-  // $: console.log($page.path);
+  // $: console.log("PAGE PATH = " + $page.path);
+
+  let showArrow = true;
+  $: if($page.path == "/"){
+    showArrow = false;
+  }else{
+    showArrow = true;
+  }
 
   let showMenu = false;
 
@@ -30,18 +36,17 @@
 >
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">
-        <!--
+      {#if showArrow}
+      <a class="navbar-item" href="/" id="backArrow">
         <img
           src="/img/brand.svg"
           opacity="0"
           width="250"
           height="45"
-          alt="Chimera Garden"
+          alt="Back Arrow"
         />
-        -->
       </a>
-
+      {/if}
       <a
         href="#top"
         on:click={toggleMenu}
@@ -91,16 +96,18 @@
   a.is-active {
     border-bottom-color: #ffffa1;
     color: #ffffa1;
+    background-color: transparent;
   }
 
   a:hover{
     border-bottom-color: #fffff0;
     color: #fffff0;
+    background-color: transparent;
   }
 
   @media only screen and (max-width: 1023px) {
     .navbar-menu {
-      background-color: #387194;
+      background-color: transparent;
     }
   }
 
@@ -117,6 +124,9 @@
   @media only screen and (max-width: 768px) {
     .navbar-item img {
       margin-left: -10px;
+    }
+    #backArrow{
+      width:30%;
     }
   }
 </style>

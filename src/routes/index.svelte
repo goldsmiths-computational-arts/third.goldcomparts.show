@@ -31,7 +31,7 @@
     <div class="hero-body">
       <div class="container is-widescreen">
         <div class="columns">
-          <div class="column is-6 leftColumn">
+          <div class="column is-6 leftColumn" style="position:relative">
             <!-- animated text -->
             <div class="box">
               <div class="word">
@@ -44,14 +44,14 @@
                 <span>Sky</span>
               </div>
             </div>
-            <div style="margin-left: 100px; margin-top: 200px;">
+            <div class="animatedImage">
               <img
-          src="/img/abex.gif"
-          opacity="0"
-          width="480"
-          height="270"
-          alt="animated image"/>
-</div>
+              src="/img/abex.gif"
+              opacity="0"
+              width="480"
+              height="270"
+              alt="animated graphic"/>
+            </div>
           </div>
           <div class="column is-6">
             <div>
@@ -87,8 +87,8 @@
           </div>
         </div>
         <div class="introAltText">
-              (alt-text)<br>Third ___ brings together a constellation of works which have escaped their tethers to a material conception or ideological representation of space, to approach an(other) third space where linkages can be made in an infinite number of ways. As such, this gateway is never static but is alive, ever-changing and evolving to reflect the simultaneously inward juxtaposition and outward distribution of art and technology. ___ is not an invitation to be filled nor is it an open-ended vision into the future. Offering up a speculative archive, Third ___ operates as a parallel world of unstable states and dual truths; disrupting binaries of the knowable and the unimaginable, structure and agency, everyday life and unending history out of chronological continuity. A radical dimension beyond an empirical or manifest order of knowledge.
-            </div>
+          (alt-text)<br>Third ___ brings together a constellation of works which have escaped their tethers to a material conception or ideological representation of space, to approach an(other) third space where linkages can be made in an infinite number of ways. As such, this gateway is never static but is alive, ever-changing and evolving to reflect the simultaneously inward juxtaposition and outward distribution of art and technology. ___ is not an invitation to be filled nor is it an open-ended vision into the future. Offering up a speculative archive, Third ___ operates as a parallel world of unstable states and dual truths; disrupting binaries of the knowable and the unimaginable, structure and agency, everyday life and unending history out of chronological continuity. A radical dimension beyond an empirical or manifest order of knowledge.
+        </div>
       </div>
     </div>
   </section>
@@ -140,70 +140,89 @@
     max-height: 1500px;
     height: 80vh;
   }
+  .animatedImage{
+    text-align: center;
+    position: absolute;
+    bottom: 30%;
+  }
+
+  .box{
+    text-align: right;
+  }
 
   @media only screen and (max-width: 768px) {
     .leftColumn {
-      /*background-position: bottom right;*/
-      /*background-size: 100% auto;*/
-      height: 100vh;
-      min-height: 500px;
-      height: 50vh;
+      height: 40vh;
+      min-height: 200px;
+      padding-top: 0;
     }
     .showDates {
       padding-top: 0rem;
+    }
+    .animatedImage{
+      text-align: center;
+      position: absolute;
+      bottom: 10%;
+    }
+    .box{
+      text-align: center;
+      margin-left: -20px;
+    }
+    .hero-body{
+      padding-top: 20px;
     }
   }
 
   /*Positioning Statement Interaction*/
   /*make the button not a button*/
   .psb {
-  background: none!important;
-  border: none;
-  padding: 0!important;
-}
-/* constillation */
-b1:hover span {display:none}
-b1:hover:before {content:"constillation"}
-/* linkages */
-b2:hover span {display:none}
-b2:hover:before {content:"linkages"}
-/* infinite */
-b3:hover span {display:none}
-b3:hover:before {content:"infinite"}
-/* gateway */
-b4:hover span {display:none}
-b4:hover:before {content:"gateway"}
-/* juxtaposition */
-b5:hover span {display:none}
-b5:hover:before {content:"juxtaposition"}
-/* distribution */
-b6:hover span {display:none}
-b6:hover:before {content:"distribution"}
-/* filled */
-b7:hover span {display:none}
-b7:hover:before {content:"filled"}
-/* speculative */
-b8:hover span {display:none}
-b8:hover:before {content:"speculative"}
-/* parallel */
-b9:hover span {display:none}
-b9:hover:before {content:"parallel"}
-/* binaries */
-b10:hover span {display:none}
-b10:hover:before {content:"binaries"}
-/* and the */
-b11:hover span {display:none}
-b11:hover:before {content:" and the "}
-/* and */
-b12:hover span {display:none}
-b12:hover:before {content:" and "}
-/* and */
-b13:hover span {display:none}
-b13:hover:before {content:" and "}
-/* chronological continuity */
-b14:hover span {display:none}
-b14:hover:before {content:"chronological continuity"}
-/* radical */
-b15:hover span {display:none}
-b15:hover:before {content:"radical"}
+    background: none!important;
+    border: none;
+    padding: 0!important;
+  }
+  /* constillation */
+  b1:hover span {display:none}
+  b1:hover:before {content:"constillation"}
+  /* linkages */
+  b2:hover span {display:none}
+  b2:hover:before {content:"linkages"}
+  /* infinite */
+  b3:hover span {display:none}
+  b3:hover:before {content:"infinite"}
+  /* gateway */
+  b4:hover span {display:none}
+  b4:hover:before {content:"gateway"}
+  /* juxtaposition */
+  b5:hover span {display:none}
+  b5:hover:before {content:"juxtaposition"}
+  /* distribution */
+  b6:hover span {display:none}
+  b6:hover:before {content:"distribution"}
+  /* filled */
+  b7:hover span {display:none}
+  b7:hover:before {content:"filled"}
+  /* speculative */
+  b8:hover span {display:none}
+  b8:hover:before {content:"speculative"}
+  /* parallel */
+  b9:hover span {display:none}
+  b9:hover:before {content:"parallel"}
+  /* binaries */
+  b10:hover span {display:none}
+  b10:hover:before {content:"binaries"}
+  /* and the */
+  b11:hover span {display:none}
+  b11:hover:before {content:" and the "}
+  /* and */
+  b12:hover span {display:none}
+  b12:hover:before {content:" and "}
+  /* and */
+  b13:hover span {display:none}
+  b13:hover:before {content:" and "}
+  /* chronological continuity */
+  b14:hover span {display:none}
+  b14:hover:before {content:"chronological continuity"}
+  /* radical */
+  b15:hover span {display:none}
+  b15:hover:before {content:"radical"}
 </style>
