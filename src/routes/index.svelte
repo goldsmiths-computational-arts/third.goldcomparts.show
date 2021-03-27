@@ -33,7 +33,7 @@
         <div class="columns">
           <div class="column is-6 leftColumn" style="position:relative">
             <!-- animated text -->
-            <div class="box" style="text-align: right;">
+            <div class="box">
               <div class="word">
                 Third&nbsp;
                 <span>Space</span>
@@ -44,13 +44,13 @@
                 <span>Sky</span>
               </div>
             </div>
-            <div style="text-align: center;position: absolute;bottom: 30%;">
+            <div class="animatedImage">
               <img
               src="/img/abex.gif"
               opacity="0"
               width="480"
               height="270"
-              alt="animated image"/>
+              alt="animated graphic"/>
             </div>
           </div>
           <div class="column is-6">
@@ -140,17 +140,35 @@
     max-height: 1500px;
     height: 80vh;
   }
+  .animatedImage{
+    text-align: center;
+    position: absolute;
+    bottom: 30%;
+  }
+
+  .box{
+    text-align: right;
+  }
 
   @media only screen and (max-width: 768px) {
     .leftColumn {
-      /*background-position: bottom right;*/
-      /*background-size: 100% auto;*/
-      height: 40vh;
+      height: 80vh;
       min-height: 200px;
-      height: 50vh;
+      padding-top: 0;
     }
     .showDates {
       padding-top: 0rem;
+    }
+    .animatedImage{
+      text-align: center;
+      position: absolute;
+      bottom: 0%;
+    }
+    .box{
+      text-align: center;
+    }
+    .hero-body{
+      padding-top: 20px;
     }
   }
 
