@@ -125,5 +125,8 @@
     .navbar-item img {
       margin-left: -10px;
     }
+    #backArrow{
+      width:30%;
+    }
   }
 </style>

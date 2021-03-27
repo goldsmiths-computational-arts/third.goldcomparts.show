@@ -115,6 +115,7 @@
     border-color: white;
     -webkit-appearance: none;
     padding: 10px;
+    font-size: 16px;
     margin-right: 10px;
     width: 25%;
     height: 40px;
