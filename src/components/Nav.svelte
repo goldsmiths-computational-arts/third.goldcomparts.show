@@ -1,8 +1,14 @@
 <script>
   import { stores } from "@sapper/app";
-
   const { page } = stores();
-  // $: console.log($page.path);
+  // $: console.log("PAGE PATH = " + $page.path);
+
+  let showArrow = true;
+  $: if($page.path == "/"){
+    showArrow = false;
+  }else{
+    showArrow = true;
+  }
 
   let showMenu = false;
 
@@ -30,18 +36,17 @@
 >
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">
-        <!--
+      {#if showArrow}
+      <a class="navbar-item" href="/" id="backArrow">
         <img
           src="/img/brand.svg"
           opacity="0"
           width="250"
           height="45"
-          alt="Chimera Garden"
+          alt="Back Arrow"
         />
-        -->
       </a>
-
+      {/if}
       <a
         href="#top"
         on:click={toggleMenu}
