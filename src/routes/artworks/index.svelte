@@ -209,7 +209,7 @@
           class="artwork-photo-BG"/>
           <div
           class="artwork-photo"
-          style="background-image:url(img/artworks/{artist.username}-thumb.jpeg),url(img/grain.png);" />
+          style="background-image:url(img/artworks/{artist.username}-thumb.jpeg),url(img/grain400.png);" />
           </div>
           <h6>{artist.title}</h6>
           <p>

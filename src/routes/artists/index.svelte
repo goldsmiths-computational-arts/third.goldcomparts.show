@@ -204,7 +204,7 @@
 					class="bio-photo-BG"/>
 					<div
 					class="bio-photo"
-					style="background-image:url(img/bios/{artist.username}.jpeg),url(img/grain.png);"/>
+					style="background-image:url(img/bios/{artist.username}.jpeg),url(img/grain400.png);"/>
 					</div>
 					<h6>
 						{artist.name}
