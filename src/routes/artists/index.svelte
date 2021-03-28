@@ -87,8 +87,8 @@
 		display: block;
 		background-position: center;
 		background-size: cover;
-		background-color: #a6a8ab;
-	}
+
+}
 	/*text for artists*/
 	.bio-box p {
 		padding: 0em 0.5em;
@@ -186,7 +186,7 @@
 				<a href="artists/{slugify(artist.name)}">
 					<div
 					class="bio-photo"
-					style="background-image:url(img/bios/{artist.username}.jpeg),url(img/bios/ipate006.jpeg)"/>
+					style="background-image:url(img/bios/{artist.username}.jpeg), linear-gradient(grey , #ffffa1)"/>
 					<h6>
 						{artist.name}
 						{artist.otherName ? `  (${artist.otherName})` : ''}
