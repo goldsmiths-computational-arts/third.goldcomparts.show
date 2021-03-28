@@ -80,15 +80,30 @@
 	.artists-container {
 		min-height: 80vh;
 	}
-
-	.bio-photo {
+	.bio-photo-container{
+		position: relative;
+  		top: 0;
+  		left: 0;
+	}
+	.bio-photo-BG {
+		position: relative;
 		width: 100%;
 		height: 190px;
-		display: block;
+		top: 0;
+  		left: 0;
+  		background-image:linear-gradient(grey , #ffffa1);
 		background-position: center;
 		background-size: cover;
-
-}
+	}
+	.bio-photo {
+		position: absolute;
+		top: 0;
+  		left: 0;
+		width: 100%;
+		height: 190px;
+		background-position: center;
+		background-size: cover;
+	}
 	/*text for artists*/
 	.bio-box p {
 		padding: 0em 0.5em;
@@ -184,9 +199,13 @@
 				transition:fly={{ duration: 300, y: 200 }}
 				animate:flip={{ delay: i * 10, duration: 400 }}>
 				<a href="artists/{slugify(artist.name)}">
+					<div class="bio-photo-container">
+					<div
+					class="bio-photo-BG"/>
 					<div
 					class="bio-photo"
-					style="background-image:url(img/bios/{artist.username}.jpeg), linear-gradient(grey , #ffffa1)"/>
+					style="background-image:url(img/bios/{artist.username}.jpeg),url(img/grain.png);"/>
+					</div>
 					<h6>
 						{artist.name}
 						{artist.otherName ? `  (${artist.otherName})` : ''}

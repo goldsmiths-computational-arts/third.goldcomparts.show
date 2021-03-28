@@ -82,14 +82,29 @@
   .artists-container {
     min-height: 80vh;
   }
-
-  .artwork-photo {
+  .artwork-photo-container{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .artwork-photo-BG {
+    position: relative;
     width: 100%;
     height: 180px;
-    display: block;
+    top: 0;
+    left: 0;
+    background-image:linear-gradient(grey , #ffffa1);
     background-position: center;
     background-size: cover;
-    background-color: #404040;
+  }
+  .artwork-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    background-position: center;
+    background-size: cover;
   }
   /*text for the artworks cards*/
   .art-box p {
@@ -189,9 +204,13 @@
         transition:fly={{ duration: 300, y: 200 }}
         animate:flip={{ delay: i * 10, duration: 400 }}>
         <a href="artists/{slugify(artist.name)}">
+          <div class="artwork-photo-container">
+          <div
+          class="artwork-photo-BG"/>
           <div
           class="artwork-photo"
-          style="background-image:url(img/artworks/{artist.username}-thumb.jpeg),linear-gradient(grey , #ffffa1)" />
+          style="background-image:url(img/artworks/{artist.username}-thumb.jpeg),url(img/grain.png);" />
+          </div>
           <h6>{artist.title}</h6>
           <p>
             {artist.name}
