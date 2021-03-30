@@ -7,7 +7,7 @@
 
   export let url = $page.path;
   export let title;
-  export let description = "17-20 September 2020";
+  export let description = "6 May 2021";
   export let image = "/img/social/facebook_1200x630.jpg";
   export let imageWidth = 1200;
   export let imageHeight = 630;

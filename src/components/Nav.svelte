@@ -86,7 +86,7 @@
   }
 
   a {
-    font-family: futura-pt, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
     color: #fcfcfc;

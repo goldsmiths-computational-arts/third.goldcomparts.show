@@ -3,20 +3,20 @@
     color: white;
   }
   .subtitle {
-    font-family: futura-pt, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
     color: #fcfcfc;
   }
   .introBody {
-    font-family: futura-pt, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.3rem;
     color: #fcfcfc;
     padding-bottom: 1.2rem;
   }
   .content {
-    font-family: futura-pt, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
     color: #fcfcfc;

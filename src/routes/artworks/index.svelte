@@ -123,6 +123,7 @@
   }
 
   .selectors select {
+    font-family: 'Montserrat', sans-serif;
     color: white;
     border-radius: 0px;
     background: transparent;

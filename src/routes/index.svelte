@@ -57,7 +57,7 @@
             <div>
               <h2 class="showDates">6 May 2021</h2>
               <h2 class="subtitle"> </h2>
-              <h2 class="subtitle"> Digital Arts Computating Degree Show</h2>
+              <h2 class="subtitle"> Digital Arts Computing Degree Show</h2>
               <h2 class="location">Goldsmiths, University of London</h2>
             </div>
             <div class="introBodyStrong" aria-hidden="true">
@@ -99,7 +99,7 @@
     color: white;
   }
   .subtitle {
-    font-family: futura-pt, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1.8rem;
     color: #fcfcfc;
@@ -108,27 +108,27 @@
     white-space: nowrap;
   }
   .showDates {
-    font-family: futura-pt, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
     color: #fcfcfc;
     padding-top: 3rem;
   }
   .location {
-    font-family: futura-pt, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
     color: #fcfcfc;
   }
   .introBodyStrong {
-    font-family: futura-pt, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1.15rem;
     color: #fcfcfc;
     padding: 2rem 0rem;
   }
   .introAltText {
-    font-family: futura-pt, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 0.9rem;
     line-height: 1rem;

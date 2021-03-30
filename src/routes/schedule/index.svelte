@@ -116,6 +116,7 @@
 
 h2 {
 color: white;
+font-family: 'Montserrat', sans-serif;
 }
 
   .event {
@@ -219,7 +220,7 @@ color: white;
 </style>
 
 <svelte:head>
-  <title>Schedule - Final Show - 2020</title>
+  <title>Schedule - Final Show - 2021</title>
 </svelte:head>
 
 <section class="section bg-col-7">
