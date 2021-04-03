@@ -15,9 +15,9 @@
   let menuItems = [
     { label: "Artists", href: "/artists" },
     { label: "Artworks", href: "/artworks" },
-    { label: "Schedule", href: "/schedule" },
-    { label: "Live", href: "/live" },
-    { label: "About", href: "/about" },
+    //{ label: "Schedule", href: "/schedule" },
+    { label: "Live + About", href: "/live" },
+    //{ label: "About", href: "/about" },
   ];
 
   function toggleMenu() {
