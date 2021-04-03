@@ -46,7 +46,7 @@
             </div>
             <div class="animatedImage">
               <img
-              src="/img/shader1.gif"
+              src="/img/noise1.gif"
               opacity="0"
               width="410"
               height="410"
