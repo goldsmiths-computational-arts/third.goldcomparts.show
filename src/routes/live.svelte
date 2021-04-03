@@ -149,7 +149,7 @@ color: white;
         <iframe
           id="twitch-chat"
           title="Twitch chat"
-          src="https://www.twitch.tv/embed/forsen/chat?parent={BASE_HOST}"
+          src=""
           height="500"
           width="900">
         </iframe>
