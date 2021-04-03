@@ -115,7 +115,7 @@ color: white;
           <iframe
             id="twitch-video"
             title="Twitch video stream"
-            src="https://player.twitch.tv/?video=v966954259&parent={BASE_HOST}" 
+            src="https://player.twitch.tv/?channel=forsen&parent={BASE_HOST}" 
             autoplay = "true"
             frameborder="0"
             allowfullscreen="true"
@@ -149,7 +149,7 @@ color: white;
         <iframe
           id="twitch-chat"
           title="Twitch chat"
-          src=""
+          src="https://www.twitch.tv/embed/forsen/chat?parent={BASE_HOST}"
           height="500"
           width="900">
         </iframe>
