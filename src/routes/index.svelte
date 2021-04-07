@@ -107,13 +107,14 @@
     font-weight: 500;
     font-size: 1.5rem;
     color: #fcfcfc;
+    margin-bottom: 2rem;
   }
   .introBodyStrong {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1.15rem;
     color: #fcfcfc;
-    padding: 2rem 0rem;
+    padding: 0rem 0rem;
   }
   .introAltText {
     font-family: 'Montserrat', sans-serif;
