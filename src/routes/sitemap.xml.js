@@ -5,9 +5,7 @@ const lastmod = new Date().toISOString().slice(0, 10);
 
 const pages = [];
 
-pages.push(`/schedule`);
-pages.push(`/getting-there`);
-pages.push(`/about`);
+pages.push(`/live`);
 pages.push(`/artists`);
 
 artists.forEach((artist) => {
