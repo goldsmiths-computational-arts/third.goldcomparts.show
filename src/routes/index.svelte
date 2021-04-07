@@ -19,6 +19,15 @@
   $: artists = tsvParse(artistsRows).sort((a, b) =>
     a.name.localeCompare(b.name, "en", { sensitivity: "base" })
     );
+
+  let posText = "Third ___ brings together a c✴︎nstillati✴︎n of works which have escaped their tethers to a [material conception]₁ or [ideological representation]₂ of space to approach an[other]₃ third space where ⇶linkages can be made in an infin∞ number of ways. As such, the gateway⍈ is never static but is alive, ever-changing and evolving to reflect the simultaneously inward juxtapositi⊗n and outward distributi⊙n of art and technology. ___ is not an invitation to be fill▥ed nor is it an open-ended vision into the future. Offering up a ⸮peculative archive, Third ___ operates as a para||e| world of unstable states and dual truths; disrupting bina⚭ries of the knowable ⟷ unimaginable, structure ⟷ agency, everyday life ⟷ unending history out of chronological ⇄ continuity. A ³√radical dimension beyond an empirical or manifest order of knowledge."
+
+  function handleMouseOver(e) {
+    posText = 'Third ___ brings together a constellation of works which have escaped their tethers to a material conception or ideological representation of space, to approach an(other) third space where linkages can be made in an infinite number of ways. As such, this gateway is never static but is alive, ever-changing and evolving to reflect the simultaneously inward juxtaposition and outward distribution of art and technology. ___ is not an invitation to be filled nor is it an open-ended vision into the future. Offering up a speculative archive, Third ___ operates as a parallel world of unstable states and dual truths; disrupting binaries of the knowable and the unimaginable, structure and agency, everyday life and unending history out of chronological continuity. A radical dimension beyond an empirical or manifest order of knowledge.';
+  }
+  function handleMouseOut(e) {
+    posText = 'Third ___ brings together a c✴︎nstillati✴︎n of works which have escaped their tethers to a [material conception]₁ or [ideological representation]₂ of space to approach an[other]₃ third space where ⇶linkages can be made in an infin∞ number of ways. As such, the gateway⍈ is never static but is alive, ever-changing and evolving to reflect the simultaneously inward juxtapositi⊗n and outward distributi⊙n of art and technology. ___ is not an invitation to be fill▥ed nor is it an open-ended vision into the future. Offering up a ⸮peculative archive, Third ___ operates as a para||e| world of unstable states and dual truths; disrupting bina⚭ries of the knowable ⟷ unimaginable, structure ⟷ agency, everyday life ⟷ unending history out of chronological ⇄ continuity. A ³√radical dimension beyond an empirical or manifest order of knowledge.';
+  }
   </script>
 
   <svelte:head>
@@ -60,9 +69,8 @@
               <h2 class="subtitle"> Digital Arts Computing Degree Show</h2>
               <h2 class="location">Goldsmiths, University of London</h2>
             </div>
-            <div class="introBodyStrong" aria-hidden="true">
-              <b1 class="psb"><span>
-              Third ___ brings together a c✴︎nstillati✴︎n of works which have escaped their tethers to a [material conception]₁ or [ideological representation]₂ of space to approach an[other]₃ third space where ⇶linkages can be made in an infin∞ number of ways. As such, the gateway⍈ is never static but is alive, ever-changing and evolving to reflect the simultaneously inward juxtapositi⊗n and outward distributi⊙n of art and technology. ___ is not an invitation to be fill▥ed nor is it an open-ended vision into the future. Offering up a ⸮peculative archive, Third ___ operates as a para||e| world of unstable states and dual truths; disrupting bina⚭ries of the knowable ⟷ unimaginable, structure ⟷ agency, everyday life ⟷ unending history out of chronological ⇄ continuity. A ³√radical dimension beyond an empirical or manifest order of knowledge. </span></b1>
+            <div on:mouseover={handleMouseOver} on:mouseout={handleMouseOut} class="introBodyStrong" aria-hidden="true">
+              {posText}
             </div>
           </div>
         </div>
@@ -153,15 +161,4 @@
       padding-top: 20px;
     }
   }
-
-  /*Positioning Statement Interaction*/
-  /*make the button not a button*/
-  .psb {
-    background: none!important;
-    border: none;
-    padding: 0!important;
-  }
-  /* constillation */
-  b1:hover span {display:none}
-  b1:hover:before {content:"Third ___ brings together a constellation of works which have escaped their tethers to a material conception or ideological representation of space, to approach an(other) third space where linkages can be made in an infinite number of ways. As such, this gateway is never static but is alive, ever-changing and evolving to reflect the simultaneously inward juxtaposition and outward distribution of art and technology. ___ is not an invitation to be filled nor is it an open-ended vision into the future. Offering up a speculative archive, Third ___ operates as a parallel world of unstable states and dual truths; disrupting binaries of the knowable and the unimaginable, structure and agency, everyday life and unending history out of chronological continuity. A radical dimension beyond an empirical or manifest order of knowledge."}
 </style>
