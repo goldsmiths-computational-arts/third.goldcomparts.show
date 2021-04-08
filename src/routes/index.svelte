@@ -55,10 +55,10 @@
             </div>
             <div class="animatedImage">
               <img
-              src="/img/noise1.gif"
+              src="/img/sphere.gif"
               opacity="0"
-              width="410"
-              height="410"
+              width="400"
+              height="400"
               alt="animated graphic"/>
             </div>
           </div>
@@ -133,7 +133,7 @@
     text-align: center;
     position: absolute;
     margin-left: 235px;
-    bottom: 33%;
+    bottom: 30%;
   }
 
   .box{
