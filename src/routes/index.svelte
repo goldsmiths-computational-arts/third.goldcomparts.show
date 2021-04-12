@@ -28,12 +28,12 @@
   function handleMouseOut(e) {
     posText = 'Third ___ brings together a c✴︎nstillati✴︎n of works which have escaped their tethers to a [material conception]₁ or [ideological representation]₂ of space to approach an[other]₃ third space where ⇶linkages can be made in an infin∞ number of ways. As such, the gateway⍈ is never static but is alive, ever-changing and evolving to reflect the simultaneously inward juxtapositi⊗n and outward distributi⊙n of art and technology. ___ is not an invitation to be fill▥ed nor is it an open-ended vision into the future. Offering up a ⸮peculative archive, Third ___ operates as a para||e| world of unstable states and dual truths; disrupting bina⚭ries of the knowable ⟷ unimaginable, structure ⟷ agency, everyday life ⟷ unending history out of chronological ⇄ continuity. A ³√radical dimension beyond an empirical or manifest order of knowledge.';
   }
-  </script>
+</script>
 
-  <svelte:head>
-  <Meta
-  title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
-  />
+<svelte:head>
+<Meta
+title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
+/>
 </svelte:head>
 <div class="hero-container">
   <section class="hero">
@@ -92,9 +92,6 @@
     font-size: 1.8rem;
     color: #fcfcfc;
   }
-  .word {
-    white-space: nowrap;
-  }
   .showDates {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -124,21 +121,107 @@
     color: #fcfcfc;
     padding: 2rem 0rem;
   }
-  .leftColumn {
-    min-height: 700px;
-    max-height: 1500px;
-    height: 80vh;
-  }
+
   .animatedImage{
-    text-align: center;
     position: absolute;
-    margin-left: 235px;
-    bottom: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
-  .box{
+  .box
+{
     text-align: right;
+    display: block;
+    width: 50%;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3.0rem;
+    color: white;
+    margin: 0 auto;
+    background-color: transparent;
+}
+.word
+{
+    white-space: nowrap;
+    position: absolute;
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+}
+.word span
+{
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+    animation: animate 12s linear infinite 0s;
+    opacity: 0;
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    2%
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    15%
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    20%
+    {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    80%
+    {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%
+    {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+}
+.word span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+.word span:nth-child(2)
+{
+    animation-delay: 2s;
+}
+.word span:nth-child(3)
+{
+    animation-delay: 4s;
+}
+.word span:nth-child(4)
+{
+    animation-delay: 6s;
+}
+.word span:nth-child(5)
+{
+    animation-delay: 8s;
+}
+.word span:nth-child(6)
+{
+    animation-delay: 10s;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .box{
+    text-align: center;
   }
+}
 
   @media only screen and (max-width: 768px) {
     .leftColumn {
