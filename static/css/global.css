@@ -303,9 +303,9 @@ a:hover {
 }
 
 .rounded-link.bg-col-1.bd-col-1.col-7:hover{
-  color: transparent;
-  color: #fd7f4c;
-  border-color: #fd7f4c;
+  background-color: white;
+  color: black;
+  border-color: black;
 
 }
 
