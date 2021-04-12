@@ -225,7 +225,7 @@ title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
 
   @media only screen and (max-width: 768px) {
     .leftColumn {
-      height: 40vh;
+      height: 60vh;
       min-height: 200px;
       padding-top: 0;
     }
