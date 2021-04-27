@@ -1,0 +1,1 @@
+Aisthesis as an ontological difference between two orders of reality - Interface as the technique of mediation. Aisthesis Interface is a play on processes of computational photography, spatializing images to allow new perspectives on the realities we inhabit.
