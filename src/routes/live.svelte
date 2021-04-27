@@ -163,7 +163,12 @@ color: white;
         <br><br> 
         All events are held online, and are available for stream here on the website. You may find the live event schedule below. Register through the link for free online tickets to attend the events.
         <br><br>
-        LINKS TO EVENTBRIGHT GO HERE!
+            <a href="https://www.eventbrite.co.uk/e/third-online-exhibition-opening-night-showcase-tickets-152472546491" target="_blank" class="rounded-link col-2 bg-col-7">
+              Opening Night Showcase
+            </a>
+            <a href="https://www.eventbrite.co.uk/e/traversing-the-binaries-unstable-states-and-dual-truths-tickets-152476402023" target="_blank" class="rounded-link col-2 bg-col-7">
+              Panel Discussion
+            </a>
         <br><br>
       </div>
       <div>

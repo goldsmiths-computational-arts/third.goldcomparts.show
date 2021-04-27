@@ -127,17 +127,18 @@ a:hover {
   background-color: #fd7f4c;
 }
 .rounded-link.col-2:hover {
-  color: white;
-  background-color: #387194;
+  background-color: white;
+  color: black;
+  border-color: black;
 }
 .rounded-link.col-7:hover {
   color: black;
   background-color: white;
 }
 .rounded-link.bg-col-3:hover {
-  background-color: transparent;
-  color: #7bc1b7;
-  border-color: #7bc1b7;
+  background-color: white;
+  color: black;
+  border-color: black;
 }
 
 .rounded-link.bg-col-1.bd-col-1.col-7:hover{
