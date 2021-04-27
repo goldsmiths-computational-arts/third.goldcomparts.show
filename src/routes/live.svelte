@@ -51,7 +51,7 @@ color: white;
     border-color: white;
     border-style: solid;
     border-width: 2px;
-    width: 280px;
+    width: 285px;
   }
 
   .feature-box:hover{
@@ -93,9 +93,10 @@ color: white;
     line-height: 1.3em;
   }
   .feature-box h6 {
-    padding: 0.5em 0.5em 0em 0.5em;
+    padding: 0.5em 0.0em 0.5em 0.5em;
     margin-bottom: 0px;
     color: white !important;
+    font-size: 22px;
   }
 
   @media screen and (max-width: 768px) {
