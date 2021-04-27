@@ -16,7 +16,7 @@
     { label: "Artists", href: "/artists" },
     { label: "Artworks", href: "/artworks" },
     //{ label: "Schedule", href: "/schedule" },
-    { label: "Live + About", href: "/live" },
+    { label: "Live", href: "/live" },
     //{ label: "About", href: "/about" },
   ];
 
