@@ -163,7 +163,7 @@
 </style>
 
 <svelte:head>
-<title>Final Show - 2020</title>
+<title>Final Show - 2021</title>
 </svelte:head>
 
 <section class="section bg-col-7">
