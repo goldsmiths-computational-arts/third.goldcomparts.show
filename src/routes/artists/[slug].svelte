@@ -12,8 +12,11 @@
   import { slugify, formatFullTime } from "../../js/helpers";
   import Meta from "../../components/Meta.svelte";
   import SocialLink from "../../components/SocialLink.svelte";
-  import Slideshow from "../../components/Slideshow.svelte";
+  // import Slideshow from "../../components/Slideshow.svelte";
   import VideoEmbed from "../../components/VideoEmbed.svelte";
+
+  import Carousel from "@beyonk/svelte-carousel";
+  import { ChevronLeftIcon, ChevronRightIcon } from "svelte-feather-icons";
 
   export let artist;
 
@@ -42,6 +45,14 @@
   /*grid-template-rows: 50px 400px 10px;*/
   /*grid-template-areas: "img name" "img bio" "links bio";*/
   /*}*/
+
+  .control :global(svg) {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 32px;
+  }
 
   .bio-photo {
     width: 100%;
@@ -170,17 +181,43 @@
   <meta property="og:type" content="profile" />
 </svelte:head>
 
-<!-- hide all the artwork stuff if we don't have title -->
-{#if artist.title}
-  <div class="container page-max-width top-framed-element">
-    {#if artist.videoDocUrl}
-          <section class="section responsive-video" style="padding: 0;">
+<!-- <section class="section responsive-video" style="padding: 0;">
             <div class="container">
               <VideoEmbed url={artist.videoDocUrl} />
             </div>
-          </section>
-        {:else}
-    <Slideshow images={artworkImages} />
+          </section> -->
+
+<!-- hide all the artwork stuff if we don't have title -->
+{#if artist.title}
+  <div class="container page-max-width top-framed-element">
+      {#if artworkImages.length === 1 && artist.videoDocUrl === 0}
+      <img src={artworkImages[0]} alt="" />
+    {:else}
+      <Carousel perPage="1">
+      <span class="control" slot="left-control">
+        {#if artworkImages.length > 1}
+        <ChevronLeftIcon />
+        {/if}
+      </span>
+      {#if artist.videoDocUrl}
+      <div class="slide-content">
+              <VideoEmbed url={artist.videoDocUrl} />
+        </div>
+      {/if}
+      {#if artworkImages.length > 1}
+    {#each artworkImages as image}
+      <div class="slide-content">
+        <img src={image} alt="" />
+      </div>
+    {/each}
+    {/if}
+      <span class="control" slot="right-control">
+        {#if artworkImages.length > 1}
+        <ChevronRightIcon />
+        {/if}
+      </span>
+    </Carousel>
+    <!-- <Slideshow images={artworkImages} /> -->
     {/if}
   </div>
 
