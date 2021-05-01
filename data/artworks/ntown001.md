@@ -1,1 +1,1 @@
-CG animated video using motion capture 
+CG animated video using motion capture.

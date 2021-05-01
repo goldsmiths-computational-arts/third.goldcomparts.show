@@ -99,7 +99,7 @@
   }
 
   .align-center {
-    text-align: center;
+    text-align: justify;
     max-width: 80%;
   }
   /*  .artist-bio {
