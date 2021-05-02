@@ -44,6 +44,11 @@
       url = `https://www.vimeo.com/${value}`;
       text = url;
       break;
+    case "email":
+      icon = `<span class="icon"><i class="fas fa-envelope"></i></span>`;
+      url = `mailto:${value}`;
+      text = value.replace(/mailto:/, "");
+      break;
 
     default:
       throw new Error(`Unknown social kind ${kind}`);

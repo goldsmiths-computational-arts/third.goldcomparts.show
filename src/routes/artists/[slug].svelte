@@ -480,6 +480,7 @@
               <SocialLink kind="website" value={artist.website} />
               <SocialLink kind="instagram" value={artist.instagram} />
               <SocialLink kind="twitter" value={artist.twitter} />
+              <SocialLink kind="email" value={artist.publicEmail} />
               <SocialLink kind="facebook" value={artist.facebook} />
               <SocialLink kind="vimeo" value={artist.vimeo} />
               <SocialLink kind="youtube" value={artist.youtube} />
