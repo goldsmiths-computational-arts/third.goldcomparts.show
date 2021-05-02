@@ -12,42 +12,42 @@
       // icon = `<span class="icon"><i class="fas fa-external-link-alt"></i></span>`;
       icon = `<span class="icon"><i class="fas fa-external-link-square-alt"></i></span>`;
       url = value;
-      text = value.replace(/https?:\/\//, "");
+      text = 'Website';
       break;
     case "instagram":
       icon = `<span class="icon"><i class="fab fa-instagram"></i></span>`;
       url = `https://instagram.com/${value}`;
-      text = `@${value}`;
+      text = `Instagram`;
       break;
     case "twitter":
       icon = `<span class="icon"><i class="fab fa-twitter"></i></span>`;
       url = `https://twitter.com/${value}`;
-      text = `@${value}`;
+      text = `Twitter`;
       break;
     case "facebook":
       icon = `<span class="icon"><i class="fab fa-facebook"></i></span>`;
       url = `https://www.facebook.com/${value}`;
-      text = url;
+      text = 'Facebook';
       break;
     case "twitch":
       icon = `<span class="icon"><i class="fab fa-twitch"></i></span>`;
       url = `https://www.twitch.com/${value}`;
-      text = url;
+      text = 'Twitch';
       break;
     case "youtube":
       icon = `<span class="icon"><i class="fab fa-youtube"></i></span>`;
       url = `https://www.youtube.com/channel/${value}`;
-      text = "YouTube Channel"; // YouTube doesn't seem to have nice urls for channels
+      text = "YouTube"; // YouTube doesn't seem to have nice urls for channels
       break;
     case "vimeo":
       icon = `<span class="icon"><i class="fab fa-vimeo"></i></span>`;
       url = `https://www.vimeo.com/${value}`;
-      text = url;
+      text = 'Vimeo';
       break;
     case "email":
       icon = `<span class="icon"><i class="fas fa-envelope"></i></span>`;
       url = `mailto:${value}`;
-      text = value.replace(/mailto:/, "");
+      text = 'Email';
       break;
 
     default:
