@@ -190,8 +190,14 @@
 <!-- hide all the artwork stuff if we don't have title -->
 {#if artist.title}
   <div class="container page-max-width top-framed-element">
-      {#if artworkImages.length === 1 && artist.videoDocUrl === 0}
+      {#if artworkImages.length === 1}
+      {#if artist.videoDocUrl}
+      <div class="slide-content">
+              <VideoEmbed url={artist.videoDocUrl} />
+        </div>
+      {:else}
       <img src={artworkImages[0]} alt="" />
+      {/if}
     {:else}
       <Carousel perPage="1">
       <span class="control" slot="left-control">
