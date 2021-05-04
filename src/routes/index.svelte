@@ -58,14 +58,14 @@ title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
                 <span>Flow</span>
                 <span>Window</span>
                 <span>Shift</span>
-                <span>Aisthesis</span>
+                <span>Stance</span>
                 <span>Anatomy</span>
                 <span>Gen</span>
                 <span>Identity</span>
                 <span>Feeling</span>
                 <span>Warning</span>
                 <span>Sentient</span>
-                <span>Endon</span>
+                <span>___</span>
               </div>
             </div>
             <div class="animatedImage">
@@ -146,7 +146,7 @@ title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
 
   .box
 {
-    text-align: right;
+    text-align: center;
     display: block;
     width: 50%;
     position: absolute;
@@ -171,7 +171,7 @@ title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
     display: inline-block;
     overflow: hidden;
     margin: 0 auto;
-    animation: animate 12s linear infinite 0s;
+    animation: animate 40s linear infinite 0s;
     opacity: 0;
 }
 @keyframes animate
@@ -186,17 +186,22 @@ title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
         opacity: 1;
         transform: translateY(0px);
     }
-    15%
+    5%
     {
         opacity: 1;
         transform: translateY(0px);
     }
-    20%
+    6%
+    {
+        opacity: 0.5;
+        transform: translateY(25px);
+    }
+    7%
     {
         opacity: 0;
         transform: translateY(50px);
-    }
-    80%
+    }    
+    40%
     {
         opacity: 0;
         transform: translateY(50px);
