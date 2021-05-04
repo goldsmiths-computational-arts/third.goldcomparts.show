@@ -217,7 +217,7 @@
           </div>
           <h6>Paula Strunden</h6>
           <p>
-            Based between Amsterdam and Vienna, Paula Strunden is a PhD researcher who develops and builds multisensory mixed reality installations. Having studied at the Bartlett School of Architecture and worked for Raumlabor and Herzog & de Meuron, Paula’s work explores the imaginary potential of architecture between virtual and physical realms. As Associate of Store, co-founder of Soft Bodies and the educational XR program Virtual Fruits, Paula has led VR/AR workshops at high-school and cultural institutions in London and abroad and tutored at the Bartlett Summer School and Architectural Association. Her room-scale XR installations have been exhibited at design and film festivals internationally, as well as the Royal Academy of Arts, Estonian Museum of Architecture, MU Artspace Eindhoven and Eye Filmmuseum Amsterdam.
+            PhD researcher based between Amsterdam and Vienna creating multisensory mixed reality installations, exploring the imaginary potential of architecture between virtual and physical realms. Her room-scale XR installations have been exhibited at design and film festivals internationally, including the Royal Academy of Arts, Estonian Museum of Architecture, MU Artspace Eindhoven and Eye Film museum Amsterdam. Studied at the Bartlett School of Architecture and worked for Raumlabor and Herzog & de Meuron, Associate of Store, co-founder of Soft Bodies and the educational XR program Virtual Fruits.
           </p>
         </a>
       </div>
@@ -229,7 +229,7 @@
           </div>
           <h6>Julia Greenway</h6>
           <p>
-            Independent curator originally from Detroit Michigan. Focusing on how digital media influences the aesthetic presentation of gender, economics, and environment, she began her curatorial practice with Interstitial, in Seattle, Washington. She was named the 2017-2018 Curator-in-Residence with Disjecta Contemporary in Portland, Oregon. Upon relocating to London in 2018 to pursue an MFA in Curating at Goldsmiths, she independently produced Gery Georgieva’s UWU Channel Radiance at Cubitt Artists and Joey Holder’s Semelparous at Springhealth Leisure Centre in early 2020.
+            Independent curator originally from Detroit, Michigan with a focus on how digital media influences the aesthetic presentation of gender, economics, and environment. Her curatorial practice began with Interstitial, in Seattle, Washington going on to be named the 2017-2018 Curator-in-Residence with Disjecta Contemporary in Portland, Oregon. Upon relocating to London in 2018 to pursue an MFA in Curating at Goldsmiths, she independently produced Gery Georgieva’s UWU Channel Radiance at Cubitt Artists and Joey Holder’s Semelparous at Springhealth Leisure Centre in early 2020.
           </p>
         </a>
       </div>
@@ -241,7 +241,7 @@
           </div>
           <h6>Ibiye Camp</h6>
           <p>
-            (she/her) a British Nigerian artist based in London. Ibiye achieved her Masters in Architecture from the Royal College of Art in 2019 and Bachelor's Degree in Fine Art at Central Saint Martins in 2013. Ibiye co-teaches with Dele Adeyemo and Dámaso Randulfe at the Royal College of Art. They run an Architecture Design Studio called Demonic Shores – Imaginaries of Indeterminacy in the Age of Logistics. Ibiye’s work forms an investigation into new technologies, and the built environment. She utilizes architectural tools to create sound, video, and augmented reality to highlight the biases and conflicts of technology.
+            British Nigerian artist based in London following a Masters in Architecture from the Royal College of Art in 2019, Ibiye co-teaches with Dele Adeyemo and Dámaso Randulfe at the Royal College of Art. Together they run an Architecture Design Studio called Demonic Shores – Imaginaries of Indeterminacy in the Age of Logistics examining the tension between logistics and spaces of indeterminacy. Ibiye’s work forms an investigation into new technologies and the built environment. She utilizes architectural tools to create sound, video, and augmented reality to highlight the biases and conflicts of technology.
           </p>
         </a>
       </div>
