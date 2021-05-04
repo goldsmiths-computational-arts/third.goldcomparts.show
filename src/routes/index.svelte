@@ -45,12 +45,27 @@ title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
             <div class="box">
               <div class="word">
                 Third&nbsp;
+                <span>___</span>
+                <span>Copy</span>
                 <span>Space</span>
                 <span>Sight</span>
+                <span>Perspective</span>
                 <span>Room</span>
+                <span>Reality</span>
                 <span>Life</span>
-                <span>Door</span>
                 <span>Sky</span>
+                <span>Door</span>
+                <span>Flow</span>
+                <span>Window</span>
+                <span>Shift</span>
+                <span>Aisthesis</span>
+                <span>Anatomy</span>
+                <span>Gen</span>
+                <span>Identity</span>
+                <span>Feeling</span>
+                <span>Warning</span>
+                <span>Sentient</span>
+                <span>Endon</span>
               </div>
             </div>
             <div class="animatedImage">
@@ -215,6 +230,66 @@ title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
 .word span:nth-child(6)
 {
     animation-delay: 10s;
+}
+.word span:nth-child(7)
+{
+    animation-delay: 12s;
+}
+.word span:nth-child(8)
+{
+    animation-delay: 14s;
+}
+.word span:nth-child(9)
+{
+    animation-delay: 16s;
+}
+.word span:nth-child(10)
+{
+    animation-delay: 18s;
+}
+.word span:nth-child(11)
+{
+    animation-delay: 20s;
+}
+.word span:nth-child(12)
+{
+    animation-delay: 22s;
+}
+.word span:nth-child(13)
+{
+    animation-delay: 24s;
+}
+.word span:nth-child(14)
+{
+    animation-delay: 26s;
+}
+.word span:nth-child(15)
+{
+    animation-delay: 28s;
+}
+.word span:nth-child(16)
+{
+    animation-delay: 30s;
+}
+.word span:nth-child(17)
+{
+    animation-delay: 32s;
+}
+.word span:nth-child(18)
+{
+    animation-delay: 34s;
+}
+.word span:nth-child(19)
+{
+    animation-delay: 36s;
+}
+.word span:nth-child(20)
+{
+    animation-delay: 38s;
+}
+.word span:nth-child(21)
+{
+    animation-delay: 40s;
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
