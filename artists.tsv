@@ -1,34 +1,31 @@
 username	name	otherName	years	title	themes	media
-alope010	Ana Lopes		3	Untitled	Sculpture	Resin Sculptures
-aalva001	Ana Álvarez Martínez		1	It's a Natural Vengeance	3D,Immersive,Nature,Future,Capitalism	Online Website
-asang001	Annan Sang		2	Decentration	XR Film	Digital Video
-akhan023	Arshia Khanna		2	Materialistic World	–	–
-ahi001	Ashley Hi		3	Browsing Copy	Machine Learning,3D,Sculpture,Space	Digital Prints,Wax Paper,Projector,Plywood,Aluminium Clips,Micro Servos,Arduino UNO Board
-areev004	Auryn Reeve		1	Xenogenesis	Virtual Space,Video,Installation,Performance	Digital Video
-droll002	David Rollinson	Davidulka Springs Solomon	2	Untitled	Installation	–
+aalva001	Ana Álvarez Martínez		1	It's a Natural Vengeance	Immersive,Nature,Future,Capitalism	Online Website
+asang001	Annan Sang		2	Decentration	XR,Immersive,Animation,	XR toolkit,Unity engine,Digital Video
+akhan023	Arshia Khanna		2	Materialistic World	Environment,Biodegradability	Installation,Openframeworks and Blender
+ahi001	Ashley Hi		3	Browsing Copy	Machine Learning,Sculpture,Space	Digital Prints,Wax Paper,Projector,Plywood,Aluminium Clips,Micro Servos,Arduino UNO Board
+areev004	Auryn Reeve	Auryn	1	Xenogenesis	Video,Virtual,Installation,Performance	Digital Video
 dwoeb001	David Woebcken	Daves	3	Becky - The Sentient Robot	–	node.js,Externa Server
-ewals003	Elizabeth Walsh		3	Dysmorphic Anatomy	Self-Hate,Mental Illness,Body Dysmorphia	p5.js,Ink,Paper,Photoshop
-ekari001	Ema Karickaite		2	Unwinder	Generative Art,Calm	Digital Video
-fmeng001	Feier Meng		1	We for me	Installation,Self Awareness 	Online Website,3D,Image,Facial Effects,Digital Video
-fbrie002	Francesca Brierley		3	Four Similitudes	Machine Learning,Physical Computing,Foucault,p5js	Wood,Magnifying Glass Domes,Monitor Screens,Speakers,Digital Video
-gpasz001	Gabor Paszti		3	Flow of Bits	Installation,Performance,Machine-Human Interaction	Machine Learning,MAX MSP,p5.js,Digital Video
+ewals003	Elizabeth Walsh		3	Dysmorphic Anatomy	Self-Hate,Mental Illness,Body Dysmorphia,Abstract	p5.js,Ink,Paper,Photoshop
+ekari001	Ema Karickaite		2	Unwinder	Generative Art,Calm	OpenFrameworks,Code,3D,Digital Video
+fbrie002	Francesca Brierley		3	four Similitudes	Machine Learning,Physical Computing,Foucault,p5js	Wood,Magnifying Glass Domes,Monitor Screens,Speakers,Digital Video
+gpasz001	Gabor Paszti		3	Flow of glitches	Installation,Performance,Machine-Human Interaction	Machine Learning,MAX MSP,p5.js,Digital Video
 ghodg001	Georgie Hodges		3	Bermondsey Spa	Architecture,Gentrification	Sculpture,Plywood,LED Matrix,Arduino Board
-hyord001	Hristo Yordanov		2	Dissection of Reality	Installation,Symbiosis,Conceptual	Glass,Wood,Electronics,LED Lights,Printed Generative Drawings
-igrub001	Isaac Grubb		2	The Personal Perspective	–	–
-ipate006	Isabella Paterson		1	of a friend, of a friend, of a friend, of a friend	Identity,Relationships	Code (p5.js),Datamoshing,Video Manipulation,Light Projection
+hyord001	Hristo Yordanov		2	Dissection of Reality	Installation,Symbiosis,Conceptual,Generative Drawings	Glass,Wood,Electronics,LED Lights,Printed Generative Drawings
+ipate006	Isabella Paterson	Isabella Blue	1	of a friend, of a friend, of a friend, of a friend	Identity,Relationships	Code (p5.js),Datamoshing,Video Manipulation,Light Projection
 mtall001	Mary Tallontire		1	After	Pixel Art,Interactive,Post-Apocaliptic,Climate Change	Online Website
-mheyw001	Matthew Heywood		3	Aisthesis Interface	Aisthesis,Photography,Architecture,Installation	Online Website,Alternate Reality,Installation
-mshig001	Michaels Shiguay		1	Untitled	–	–
-ntown001	Nathanael Townsed	Nate Townsend 	2	Untitled	Motion Capture,Animation	Moving Image
-ngrif004	Noah Griffin		1	Endon	–	Online Website
-nrash006	Novo Rashid Hossain		1	Untitled	–	Soft Pastels
+mheyw001	Matthew Heywood		3	Aisthesis Interface	Aisthesis,Photography,Architecture,Installation	Online Website,Alternate Reality
+mshig001	Michaels Shiguay		1	Anxiety	Anxiety	Online Website
+ntown001	Nathanael Townsed	Nate Townsend 	2	Oort Cloud	Documentary,Solar System	Moving Image,3D Computer Generated Imagery
+ngrif004	Noah Griffin		1	Endon	Text,Narrative	Online Website
+droll002	Rollinson	Davidulka Springs Solomon	2	Conduit 	Installation	Sculpture,Installation,Arduino Board,Electronics,Aquarium Tubing,Cattle Trough,Valves,Oil,Natrosol,Water,Air,Silicone,Tape
 smiya001	Sato Miyagi		3	Multimodal Pizza	Digital Media,Future,Culinary Practice,Augmented Reality,Installation,Interactive	Digital Video,Projectors
-tlair001	Theodora Laird	feeo	2	WARNING! Disgruntled Natives 	Future,Cyberspace,Post-Apocaliptic	Audio,Digital Video,openFrameworks
-tnoya001	Thomas Noya		3	Time Is Inherently Cruel	Time,Nostalgia,Immigration,Video Art,Machine Learning	Digital Video
+tgoff001	Theo Goff	theo goff	1	for the game	Football,Interactive	p5.js
+tlair001	Theodora Laird	feeo	2	WARNING! Disgruntled Natives	Future,Cyberspace,Post-Apocaliptic,Interactive	Audio,Digital Video,openFrameworks
+tnoya001	Thomas Noya		3	Time Is Inherently Cruel	Time,Machine Learning,Nostalgia,Immigration,Video Art	Digital Video
 ytang012	Tiffany Tang	gnattang	1	kissingbooth	Interactive Performance	Webcam Performance
 vhaak001	Vendela Håkonsen	VenAur	1	Mother Told Me it Wasn't Fair to Tattletale 	Poetry	HTML
 ysi001	Yangqiandai Si		1	We for me	Installation,Self Awareness 	Online Website,3D,Image,Facial Effects,Digital Video
 ymorg001	Yasmin Morgan	delirious	3	Amorphous Butterfly	AI,3D,Artificial Intimacy,Murakami,Koans	Online Website,ml5.js Implementation of poseNet and charRNN Machine Learning Models,WEBGL Raymarched Fragment Shaders
 ygu001	Yingting Gu		1	The data is in love	Online Relationships	Digital Video
-yyang023	Yuehan Yang		1	Untitled	–	–
+yyang023	Yuehan Yang		1	Before Phanerozoic Eon	Phanerozoic Eon	p5.js,3D Rendered Videos
 zpalm002	Zoe Palmer		3	Eating Pigeons	Generative Art,Ecosystems,Val Plumwood,Pigeons,Natural World	Digital Painting
