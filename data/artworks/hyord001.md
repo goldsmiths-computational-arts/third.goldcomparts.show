@@ -1,1 +1,1 @@
-Digitally based installation around human-environmental symbiosis, a conceptual piece in the abstract form of digital art.
+Dissection of Reality is a mixed media art installation that explores ecology subjects of anthropocene epoch, designed and build by the London-based artist Hristo Yordanov who embodies the fusion of art, science, and technology into his contemporary art piece.
