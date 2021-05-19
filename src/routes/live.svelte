@@ -156,7 +156,7 @@
           <iframe 
           width="500" 
           height="900" 
-          src="https://www.youtube.com/embed/live_stream?channel=UCnyBpDkl3sH_xnU7o9xDfYg" 
+          src="https://www.youtube.com/embed/3eKjXzT5QBI"
           title="YouTube video player" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -165,6 +165,24 @@
       </div>
     </section>
 </div>
+
+<div class="container page-max-width top-framed-element">
+    <section>
+      <div class="container">
+        <div class="responsive-iframe">
+          <iframe 
+          width="500" 
+          height="900" 
+          src="https://www.youtube.com/embed/DsArvMd1w8A"
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+</div>
+
 <section class="section">
 
   <div class="container page-max-width">
