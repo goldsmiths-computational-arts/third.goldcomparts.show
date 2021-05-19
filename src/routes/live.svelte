@@ -193,35 +193,28 @@
         <!-- <h2 class="location">Goldsmiths, University of London</h2> -->
       </div>
       <div class="introBody">
-        The public programme for Third ____ will feature key events focussing on art and technology within the individual artworks on show and the professional practice of artists and curators part of the wider arts ecology. 
+        The public programme for Third ____ featured key events focussing on art and technology within the individual artworks on show and the professional practice of artists and curators part of the wider arts ecology. 
         <br><br> 
-        All events are held online, and are available for stream here on the website. You may find the live event schedule below. Register through the link for free online tickets to attend the events.
+        Recordings of the events are available to watch here on the website. Information on the events is available below.
         <br><br>
       </div>
       <div>
-        <h2 class="subtitle">Schedule</h2>
         <div class="introBody">
           <b>
           Thursday, 6 May 2021<br>
-          7pm – 8pm BST<br>
           Opening Night Showcase<br>
           </b>
           Featuring Digital Arts Computing Students<br><br>
-          An online exhibition opening hangout and livestream celebrating selected works by participating artists through a back-to-back spotlight of artworks in the form of a commentary exchange relay.<br><br> 
-
-          <a href="https://www.eventbrite.co.uk/e/third-online-exhibition-opening-night-showcase-tickets-152472546491" target="_blank" class="rounded-link col-2 bg-col-7">REGISTER HERE</a>
-          <br><br> 
+          An online exhibition opening hangout and livestream celebrating selected works by participating artists through a back-to-back spotlight of artworks in the form of a commentary exchange relay.<br> 
+          <br> 
           <b>
           Saturday, 8 May 2021<br>
-          3pm – 4:30pm BST<br>
           Traversing the Binaries: Unstable States and Dual Truths<br>
           </b>
           Featuring Paula Strunden, Julia Greenway, Ibiye Camp<br>
           Moderated by Yasmin Morgan<br><br>
 
           An online panel discussion on the topic of technology-driven digital, networked art practices and their relationship to and potential disruption of existing conventions of space, architecture, and time.
-          <br><br>
-          <a href="https://www.eventbrite.co.uk/e/traversing-the-binaries-unstable-states-and-dual-truths-tickets-152476402023" target="_blank" class="rounded-link col-2 bg-col-7">REGISTER HERE</a>
           <br><br>
         </div>
       </div>
