@@ -13,10 +13,11 @@ You'll then need to install the node modules (library files) for this project by
 ```bash
 npm run dev
 ```
+This wil load the project into a localhost that you can access from a web browser. After this is done, any changes that you make to the code (and save) in the IDE of your preference (we used [Sublime Text](https://www.sublimetext.com)) will show here.
 
 ### Data
 
-Data which generates the site is in the `data` folder and is mostly `.tsv` (tab separated values) which can opened in many spreadsheet programs such as Google Sheets and LibreOffice (avoid Excel it has issues). It also uses Markdown files for longer text such as biography.
+Data which generates the site is in the `data` folder and is mostly `.tsv` (tab separated values) which can opened in many spreadsheet programs such as Google Sheets, Numbers, and LibreOffice (avoid Excel it has issues). It also uses Markdown files for longer text such as biography.
 
 ## Production mode and deployment
 
