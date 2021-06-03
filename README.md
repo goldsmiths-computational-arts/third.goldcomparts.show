@@ -44,7 +44,7 @@ The **components** folder is where you'll find elements of a site that can be re
 
 ##### Svelte
 
-The content of these .svelte files is mostly the same as what you'd expect from a HTML file the main difference is the use of [Svelte](https://svelte.dev/) this lets you do some things which may look odd if you have only ever used HTML and Javascript it is **highly recommended** you go through through the [tutorials](https://svelte.dev/tutorial/basics) on the svelte website to understand how to use it as it will generally make your life easier and is really easy to pick up. If you ever find yourself needing to write to Javascript for an interaction etc it's worth seeing if there is a way to do it in Svelte rather than vanilla JS as it will often be easier.
+The content of these .svelte files is mostly the same as what you'd expect from a HTML file the main difference is the use of [Svelte](https://svelte.dev/) this lets you do some things which may look odd if you have only ever used HTML and Javascript it is **highly recommended** you go through the [tutorials](https://svelte.dev/tutorial/basics) on the svelte website to understand how to use it as it will generally make your life easier and is really easy to pick up. If you ever find yourself needing to write to Javascript for an interaction etc it's worth seeing if there is a way to do it in Svelte rather than vanilla JS as it will often be easier.
 
 ##### Bulma
 
@@ -54,7 +54,7 @@ The site also uses the CSS framework [Bulma](https://bulma.io/) this saves writi
 
 If you just want to make simple changes to colour schemes or fonts the easiest way to figure out what you need to change is by using the inspector within google chromes development tools. For any element you hover over you will see something like `div#gradient.svelte-gx22xr` to find that within the code you just ignore everything before the **#** and everything after **.svelte** leaving you with **gradient** which can just use the find tool in your IDE to see where that code is within the page you're editing.
 
-The first place to look is always the **.svelte** of the page you're editing for any styling, if you can't find what you're looking for it will be in the global CSS file found in the static folder``static/css/global.css` . You should always do it in this order as you may find someone has overwritten the global CSS within the **.svelte** file.
+The first place to look is always the **.svelte** of the page you're editing for any styling, if you can't find what you're looking for it will be in the global CSS file found in the static folder `static/css/global.css` . You should always do it in this order as you may find someone has overwritten the global CSS within the **.svelte** file.
 
 ## Deployment
 
@@ -69,3 +69,48 @@ To publish any changes you've made to your local copy of the site you should fol
 
 This will export the site to `public` and then commit it to the `gh-pages` and push to Github
 
+## Data Collection and Implementation
+
+Now that you know how to edit and deploy the site, it is time to collect the artists and artworks data. The data which generates the site is in the `data` folder and is mostly `.tsv` (tab separated values) which can opened in many spreadsheet programs such as Google Sheets, Numbers, and LibreOffice (avoid Excel, it has issues). It also uses Markdown files for longer text such as biography.
+
+We worked with 
+
+[Airtable]: https://airtable.com
+
+to create the forms we used to collect all required information. As data was being collected, we separated it and input it into the correspondent fields  on both the `artists.tsv` and the `artworks.tsv` files found in `/data/`. At the beginning of production, doing this once a week should suffice, as the final date approaches, you can do it daily or as often as necessary. 
+
+##### `artists.tsv` 
+
+This file contains: `name` (student name), `otherName` (artistic name if applicable), `years` (student year), `website` (link to student website - include https to avoid bugs), `youtube` (link to student YouTube channel - just the ID, not the whole link), `vimeo` (link to student Vimeo channel - just the user ID, not the whole link), `twitch` (link to student Twitch channel - just the user ID, not the whole link), `facebook` (link to student Facebook page - just the user ID, not the whole link), `instagram` (link to student Instagram account - just the user ID, not the whole link), `slug` (student name in slug format for URL), `username` (student Goldsmiths username - e.g. aaaaa001). 
+
+Do not change the naming of the current columns, as this will break the whole site. 
+
+Use the current `artists.tsv` file as a guide. Save a copy in case you ever need to see a working version. 
+
+##### `artworks.tsv` 
+
+This file contains: `timestamp` (this is irrelevant, leave empty or use a generic stamp), `email` (student Goldsmiths email address - @gold.ac.uk), `title` (artwork title - if any student has no title before the deadline, use "untitled" instead, as leaving a combination of empty fields and filled ones might break the site), `videoDocUrl` (link to artwork documentation video - Vimeo, YouTube, etc), `interactiveUrl` (link to student external artwork documentation if available - useful if a custom site was built etc), `streamTiwtch` (student Tiwtch stream link if applicable), `streamYoutube` (student YouTube stream link if applicable), `themes` (use this field to generate tags base on theme e.g. Cyberspace, Poetry - to avoid breaking the site, you can leave a '–' instead of an empty field), `media`  (use this field to generate tags base on media e.g. Digital Video, Online Website, Glass, Wood - to avoid breaking the site, you can leave a '-' instead of an empty field), `years` (student year), `username` (student Goldsmiths username - e.g. aaaaa001), `numImages` (number of artwork images the student has submitted, if > 1 a slideshow will appear on the student page). 
+
+##### `/artworks` 
+
+This folder contains all the student artwork description Markdown files. Name each Markdown file with the correspondent student Goldsmiths `username` e.g. aaaaa001.md. Fill each file with the correspondent information. One file per student. 
+
+##### `/bios` 
+
+This folder contains all the student biography Markdown files. If you decide not to have bios, then leave as it is. Name each Markdown file with the correspondent student Goldsmiths `username` e.g. aaaaa001.md. Fill each file with the correspondent information. One file per student. 
+
+##### Images
+
+The images can be found and are to be place on `/static/img/artworks/` and `static/img/bios/`. 
+
+##### `/static/img/artworks/` 
+
+This folder contains all artwork images, the naming logic goes like this: aaaaa001-1.jpeg (artwork image no. 1), aaaaa001-2.jpeg (artwork image no. 2 - if applicable), and so on... aaaaa001-thumb.jpeg (artwork thumbnail image). The main images should be 1920px x 1080px (any other sizes and the site will either stretch them or even break). The thumbnail image can be the same size as the main image or it can be 960px x 540px to increase efficiency. 
+
+##### `/static/img/bios/` 
+
+This folder contains all student profile images, the naming logic goes like this: aaaaa001.jpeg. The bio images should be 600px x 600px. Stundents who fail to provide a bio image, will get a grainy colour gradient (unless the current code is changed). Otherwise, make solid colour images for missing bio images (just an idea).
+
+##### `/static/img/` 
+
+Besides containing the image folders for artworks and bios, this folder also contains all other images used on the site, such as the current speaker images, the home-page GIF, and the favicom, etc.
