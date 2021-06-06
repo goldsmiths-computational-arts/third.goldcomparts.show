@@ -73,11 +73,7 @@ This will export the site to `public` and then commit it to the `gh-pages` and p
 
 Now that you know how to edit and deploy the site, it is time to collect the artist's and artwork's data. The data which generates the site is in the `data` folder and is mostly `.tsv` (tab-separated values) which can be opened in many spreadsheet programs such as Google Sheets, Numbers, and LibreOffice (avoid Excel, it has issues). It also uses Markdown files for longer text such as biography.
 
-We worked with 
-
-[Airtable]: https://airtable.com
-
-to create the forms we used to collect all required information. As data was being collected, we separated it and input it into the correspondent fields  on both the `artists.tsv` and the `artworks.tsv` files found in `/data/`. At the beginning of production, doing this once a week should suffice, as the final date approaches, you can do it daily or as often as necessary. 
+We worked with  [Airtable](https://airtable.com) to create the forms we used to collect all required information. As data was being collected, we separated it and input it into the correspondent fields  on both the `artists.tsv` and the `artworks.tsv` files found in `/data/`. At the beginning of production, doing this once a week should suffice, as the final date approaches, you can do it daily or as often as necessary. 
 
 ##### `artists.tsv` 
 
