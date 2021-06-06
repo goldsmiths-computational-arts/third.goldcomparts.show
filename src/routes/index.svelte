@@ -174,6 +174,8 @@ title="Third ___ - Digital Arts Computing Degree Show Goldsmiths"
     animation: animate 40s linear infinite 0s;
     opacity: 0;
 }
+
+/* Third animation */
 @keyframes animate
 {
     0%
