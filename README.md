@@ -16,39 +16,39 @@ Once you're inside the directory within terminal you'll then need to install the
 npm run dev
 ```
 
-This will load the project into a localhost that you can access from a web browser, it will tell you in the terminal what the URL for this local host is. Once the site is running locally, any changes that you make to the code (and save) in your IDE of choice will automatically update your local host preview.
+This will load the project into a localhost that you can access from a web browser, it will tell you in the terminal what the URL for this localhost is. Once the site is running locally, any changes that you make to the code (and save) in your IDE of choice will automatically update your local host preview.
 
 #### Choosing Your IDE
 
-Now that you can run the site locally you'll want to edit the site using an IDE. As the site is built using Sapper (we'll get into that later) a lot of the files you'll be editing are in the format .svelte this means it's a good idea to figure out what IDE you want to use and get setup before trying to do any editing/development.
+Now that you can run the site locally you'll want to edit the site using an IDE. As the site is built using Sapper (we'll get into that later) a lot of the files you'll be editing are in the format .svelte this means it's a good idea to figure out what IDE you want to use and get set up before trying to do any editing/development.
 
-There's a few options available but if you've not got a strong preference stick to [Visual Studio Code](https://code.visualstudio.com/) as it has an [extension](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) for working with Sapper or, [Sublime Text](https://www.sublimetext.com/) which is a lightweight code editor which [can be setup](https://svelte.dev/blog/setting-up-your-editor) to read .svelte documents as HTML.
+There are a few options available but if you've not got a strong preference stick to [Visual Studio Code](https://code.visualstudio.com/) as it has an [extension](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) for working with Sapper or, [Sublime Text](https://www.sublimetext.com/) which is a lightweight code editor which [can be set up](https://svelte.dev/blog/setting-up-your-editor) to read .svelte documents as HTML.
 
 ## Editing The Site
 
-Once you've chosen your IDE and you've opened up the github repo you'll probably be wondering where's the index.html and what are all these files. The site is using a component framework called [Sapper](https://sapper.svelte.dev/docs) it's a bit like [Redux](https://react-redux.js.org/) or [Nuxt](https://nuxtjs.org/) for [React](https://reactjs.org/) and [Vue](https://vuejs.org/). But if that doesn't mean anything to you it just means it's a way to build a website that is quicker to load and cheaper to run.
+Once you've chosen your IDE and you've opened up the GitHub repo you'll probably be wondering where's the index.html and what are all these files. The site is using a component framework called [Sapper](https://sapper.svelte.dev/docs) it's a bit like [Redux](https://react-redux.js.org/) or [Nuxt](https://nuxtjs.org/) for [React](https://reactjs.org/) and [Vue](https://vuejs.org/). But if that doesn't mean anything to you it just means it's a way to build a website that is quicker to load and cheaper to run.
 
 To get started the two folders you'll probably care about the most for now are:
 
 ##### **static** - Where any media for the site lives.
 
-It's pretty self explanatory the **img** folder is for the images & the **css** folder is for the global CSS. Inside the **img** folder you'll also find an **artworks** and **bios** folders where the images for artists and artworks need to end up.
+It's pretty self-explanatory the **img** folder is for the images & the **css** folder is for the global CSS. Inside the **img** folder, you'll also find **artworks** and **bios** folders where the images for artists and artworks need to end up.
 
 ##### **src** - Where the code is kept.
 
-Inside the **src** folder you'll find a folder called **routes** this is where the pages of the site are kept and you should notice a file called **index.svelte** this is the homepage for the site and what will be loaded when a user visits the domain.
+Inside the **src** folder, you'll find a folder called **routes** this is where the pages of the site are kept and you should notice a file called **index.svelte** this is the homepage for the site and what will be loaded when a user visits the domain.
 
 You'll also notice some pages like **about.svelte** which aren't currently being used. If you wanted to add this page back in or create an entirely new one you need to add the page in the **sitemap.xml** file for it to be reachable. If you wanted this page to appear in the navigation bar you would also need to go into the **components** folder within **src** where you should see **Nav.svelte** and edit the array called `menuItems`.
 
-The **components** folder is where you'll find elements of a site that can be reused throughout the site like the top navigation bar **Nav.svelte** any changes to these files will happen site wide.
+The **components** folder is where you'll find elements of a site that can be reused throughout the site like the top navigation bar **Nav.svelte** any changes to these files will happen site-wide.
 
 ##### Svelte
 
-The content of these .svelte files is mostly the same as what you'd expect from a HTML file the main difference is the use of [Svelte](https://svelte.dev/) this lets you do some things which may look odd if you have only ever used HTML and Javascript it is **highly recommended** you go through the [tutorials](https://svelte.dev/tutorial/basics) on the svelte website to understand how to use it as it will generally make your life easier and is really easy to pick up. If you ever find yourself needing to write to Javascript for an interaction etc it's worth seeing if there is a way to do it in Svelte rather than vanilla JS as it will often be easier.
+The content of these .svelte files is mostly the same as what you'd expect from an HTML file the main difference is the use of [Svelte](https://svelte.dev/) this lets you do some things which may look odd if you have only ever used HTML and Javascript it is **highly recommended** you go through the [tutorials](https://svelte.dev/tutorial/basics) on the svelte website to understand how to use it as it will generally make your life easier and is really easy to pick up. If you ever find yourself needing to write to Javascript for an interaction etc it's worth seeing if there is a way to do it in Svelte rather than vanilla JS as it will often be easier.
 
 ##### Bulma
 
-The site also uses the CSS framework [Bulma](https://bulma.io/) this saves writing as much CSS in a similar way to how Svelte saves you from writing Javascript. It is worth becoming familiar with if you want to add in any functionality as you will probably find you won't have to do as much work yourself.
+The site also uses the CSS framework [Bulma](https://bulma.io/) which saves writing as much CSS in a similar way to how Svelte saves you from writing Javascript. It is worth becoming familiar with if you want to add in any functionality as you will probably find you won't have to do as much work yourself.
 
 ##### Changing The Basics
 
@@ -58,7 +58,7 @@ The first place to look is always the **.svelte** of the page you're editing for
 
 ## Deployment
 
-To publish any changes you've made to your local copy of the site you should follow this check list.
+To publish any changes you've made to your local copy of the site you should follow this checklist.
 
 1. Save any changes to your local files.
 2. Check that your changes work locally using `npm run dev`.
@@ -67,11 +67,11 @@ To publish any changes you've made to your local copy of the site you should fol
 5. Use `npm run deploy` to push your local copy of the site to the live public site.
 6. Check it works on the live site (you might have to wait a couple minutes).
 
-This will export the site to `public` and then commit it to the `gh-pages` and push to Github
+This will export the site to `public` and then commit it to the `gh-pages` and push it to GitHub
 
 ## Data Collection and Implementation
 
-Now that you know how to edit and deploy the site, it is time to collect the artists and artworks data. The data which generates the site is in the `data` folder and is mostly `.tsv` (tab separated values) which can opened in many spreadsheet programs such as Google Sheets, Numbers, and LibreOffice (avoid Excel, it has issues). It also uses Markdown files for longer text such as biography.
+Now that you know how to edit and deploy the site, it is time to collect the artist's and artwork's data. The data which generates the site is in the `data` folder and is mostly `.tsv` (tab-separated values) which can be opened in many spreadsheet programs such as Google Sheets, Numbers, and LibreOffice (avoid Excel, it has issues). It also uses Markdown files for longer text such as biography.
 
 We worked with 
 
@@ -81,7 +81,7 @@ to create the forms we used to collect all required information. As data was bei
 
 ##### `artists.tsv` 
 
-This file contains: `name` (student name), `otherName` (artistic name if applicable), `years` (student year), `website` (link to student website - include https to avoid bugs), `youtube` (link to student YouTube channel - just the ID, not the whole link), `vimeo` (link to student Vimeo channel - just the user ID, not the whole link), `twitch` (link to student Twitch channel - just the user ID, not the whole link), `facebook` (link to student Facebook page - just the user ID, not the whole link), `instagram` (link to student Instagram account - just the user ID, not the whole link), `slug` (student name in slug format for URL), `username` (student Goldsmiths username - e.g. aaaaa001). 
+This spreadsheet contains `name` (student name), `otherName` (artistic name if applicable), `years` (student year), `website` (link to student website - include https to avoid bugs), `youtube` (link to student YouTube channel - just the ID, not the whole link), `vimeo` (link to student Vimeo channel - just the user ID, not the whole link), `twitch` (link to student Twitch channel - just the user ID, not the whole link), `facebook` (link to student Facebook page - just the user ID, not the whole link), `instagram` (link to student Instagram account - just the user ID, not the whole link), `slug` (student name in slug format for URL), `username` (student Goldsmiths username - e.g. aaaaa001). 
 
 Do not change the naming of the current columns, as this will break the whole site. 
 
@@ -89,15 +89,15 @@ Use the current `artists.tsv` file as a guide. Save a copy in case you ever need
 
 ##### `artworks.tsv` 
 
-This file contains: `timestamp` (this is irrelevant, leave empty or use a generic stamp), `email` (student Goldsmiths email address - @gold.ac.uk), `title` (artwork title - if any student has no title before the deadline, use "untitled" instead, as leaving a combination of empty fields and filled ones might break the site), `videoDocUrl` (link to artwork documentation video - Vimeo, YouTube, etc), `interactiveUrl` (link to student external artwork documentation if available - useful if a custom site was built etc), `streamTiwtch` (student Tiwtch stream link if applicable), `streamYoutube` (student YouTube stream link if applicable), `themes` (use this field to generate tags base on theme e.g. Cyberspace, Poetry - to avoid breaking the site, you can leave a '–' instead of an empty field), `media`  (use this field to generate tags base on media e.g. Digital Video, Online Website, Glass, Wood - to avoid breaking the site, you can leave a '-' instead of an empty field), `years` (student year), `username` (student Goldsmiths username - e.g. aaaaa001), `numImages` (number of artwork images the student has submitted, if > 1 a slideshow will appear on the student page). 
+This spreadsheet contains `timestamp` (this is irrelevant, leave empty or use a generic stamp), `email` (student Goldsmiths email address - @gold.ac.uk), `title` (artwork title - if any student has no title before the deadline, use "untitled" instead, as leaving a combination of empty fields and filled ones might break the site), `videoDocUrl` (link to artwork documentation video - Vimeo, YouTube, etc), `interactiveUrl` (link to student external artwork documentation if available - useful if a custom site was built etc), `streamTiwtch` (student Tiwtch stream link if applicable), `streamYoutube` (student YouTube stream link if applicable), `themes` (use this field to generate tags base on theme e.g. Cyberspace, Poetry - to avoid breaking the site, you can leave a '–' instead of an empty field), `media`  (use this field to generate tags base on media e.g. Digital Video, Online Website, Glass, Wood - to avoid breaking the site, you can leave a '-' instead of an empty field), `years` (student year), `username` (student Goldsmiths username - e.g. aaaaa001), `numImages` (number of artwork images the student has submitted, if > 1 a slideshow will appear on the student page). 
 
 ##### `/artworks` 
 
-This folder contains all the student artwork description Markdown files. Name each Markdown file with the correspondent student Goldsmiths `username` e.g. aaaaa001.md. Fill each file with the correspondent information. One file per student. 
+This folder contains all the student artwork description Markdown files. Name each Markdown file with the correspondent student Goldsmith's `username` e.g. aaaaa001.md. Fill each file with the correspondent information. One file per student. 
 
 ##### `/bios` 
 
-This folder contains all the student biography Markdown files. If you decide not to have bios, then leave as it is. Name each Markdown file with the correspondent student Goldsmiths `username` e.g. aaaaa001.md. Fill each file with the correspondent information. One file per student. 
+This folder contains all the student biography Markdown files. If you decide not to have bios, then leave as it is. Name each Markdown file with the correspondent student Goldsmith's `username` e.g. aaaaa001.md. Fill each file with the correspondent information. One file per student. 
 
 ##### Images
 
@@ -109,8 +109,8 @@ This folder contains all artwork images, the naming logic goes like this: aaaaa0
 
 ##### `/static/img/bios/` 
 
-This folder contains all student profile images, the naming logic goes like this: aaaaa001.jpeg. The bio images should be 600px x 600px. Stundents who fail to provide a bio image, will get a grainy colour gradient (unless the current code is changed). Otherwise, make solid colour images for missing bio images (just an idea).
+This folder contains all student profile images, the naming logic goes like this: aaaaa001.jpeg. The bio images should be 600px x 600px. Students who fail to provide a "bio" image, will get a grainy colour gradient (unless the current code is changed). Otherwise, make solid colour images for missing bio images (just an idea).
 
 ##### `/static/img/` 
 
-Besides containing the image folders for artworks and bios, this folder also contains all other images used on the site, such as the current speaker images, the home-page GIF, and the favicom, etc.
+Besides containing the image folders for artworks and bios, this folder also contains all other images used on the site, such as the current speaker images, the home-page GIF, and the favicon, etc.
