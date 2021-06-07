@@ -81,14 +81,14 @@ We worked with  [Airtable](https://airtable.com/)  to create the forms we used t
 This spreadsheet contains  
 
  - `name`  (student name)
- - `otherName`  (artistic name if applicable)
+ - `otherName`  (artistic name/pseudonym if applicable)
  - `years`  (student year)
  - `website`  (link to student website - include https to avoid bugs)
- - `youtube`  (link to student YouTube channel - just the ID, not the whole link)
- - `vimeo`  (link to student Vimeo channel - just the user ID, not the whole link)
- - `twitch`  (link to student Twitch channel - just the user ID, not the whole link)
- - `facebook`  (link to student Facebook page - just the user ID, not the whole link)
- - `instagram`  (link to student Instagram account - just the user ID, not the whole link)
+ - `youtube`  (link to student YouTube channel - just the ID (e.g. UCyMuew7W4dImCTaw-KRxjkQ), not the whole link. If you paste the whole URL you will see it duplicated on the live site)
+ - `vimeo`  (link to student Vimeo channel - just the user ID (e.g. user1010101), not the whole link. If you paste the whole URL you will see it duplicated on the live site)
+ - `twitch`  (link to student Twitch channel - just the user ID, not the whole link. If you paste the whole URL you will see it duplicated on the live site)
+ - `facebook`  (link to student Facebook page - just the user ID (e.g. JaneMo), not the whole link. If you paste the whole URL you will see it duplicated on the live site)
+ - `instagram`  (link to student Instagram account - just the user ID (e.g. @010101), not the whole link)
  - `slug`  (student name in slug format for URL)
  - `username`  (student Goldsmiths username - e.g. aaaaa001).
 
@@ -140,3 +140,7 @@ This folder contains all student profile images, the naming logic goes like this
 ##### [](https://github.com/goldsmiths-computational-arts/third.goldcomparts.show#staticimg)`/static/img/`
 
 Besides containing the image folders for artworks and bios, this folder also contains all other images used on the site, such as the current speaker images, the home-page GIF, and the favicon, etc.
+
+## [](https://github.com/goldsmiths-computational-arts/third.goldcomparts.show#debugging)Debugging
+
+Most of the errors we found while working on this site were traced back to the spreadsheets and the data in them. If you run into any errors while developing the site (e.g. you might be unable to load the site onto a localhost - server will crash), the first step is to check your Terminal console and look for any prompts that might give you an idea of what is causing the error. When this happened to us, and it was somewhat clear the data from the spreadsheets was responsible, we proceeded to try isolating the problem by inspecting each column and each row. Sometimes having some columns with filled and empty cells would break the site (hence why we recommend using "–" on empty `themes` cells or "Untitled" on empty `title` cells if necessary), sometimes having a mix of `https` and `http` links on the `website` cells  would break the site (try adding the "s" to all non-secure links), and so on. If it breaks, try going back to the latest working version and work your way up till you can isolate the problem. Look for differences, what is working and what is not. These recommendations might be considered band-aids and might not fix the root cause of the problems, but they can help you move forward. 
