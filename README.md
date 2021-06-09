@@ -1,6 +1,7 @@
 If you are unfamiliar with git it is recommended you use the  [GitHub Desktop](https://desktop.github.com/)  app to clone the repo.
 
-The url for the live site is  [https://third.goldcomparts.show](https://third.goldcomparts.show/)
+## Current Site
+The url for the live site (DAC 2021) is [https://third.goldcomparts.show](https://third.goldcomparts.show/)
 
 ## [Creating a new site](https://github.com/goldsmiths-computational-arts/goldcomparts.show)
 
