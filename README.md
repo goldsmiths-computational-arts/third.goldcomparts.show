@@ -4,6 +4,7 @@ If you are unfamiliar with git it is recommended you use the  [GitHub Desktop](h
 The url for the live site (DAC 2021) is [https://third.goldcomparts.show](https://third.goldcomparts.show/)
 
 ## [Creating a new site](https://github.com/goldsmiths-computational-arts/goldcomparts.show)
+Follow the link to learn how to create your own sub-domain.
 
 ## [](https://github.com/goldsmiths-computational-arts/third.goldcomparts.show#getting-started)Getting Started
 
