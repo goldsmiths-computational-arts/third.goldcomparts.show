@@ -2,7 +2,7 @@ If you are unfamiliar with git it is recommended you use the  [GitHub Desktop](h
 
 The url for the live site is  [https://third.goldcomparts.show](https://third.goldcomparts.show/)
 
-## (Creating a new site)[https://github.com/goldsmiths-computational-arts/goldcomparts.show]
+## [Creating a new site](https://github.com/goldsmiths-computational-arts/goldcomparts.show)
 
 ## [](https://github.com/goldsmiths-computational-arts/third.goldcomparts.show#getting-started)Getting Started
 
